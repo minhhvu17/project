@@ -15,7 +15,8 @@
 </head>
 
 <body>
-    <header>
+    
+    <header id="head">
         <div class="container">
             <div class="titl">
                 <h1 class="webname"><a href="project.html"> Phim <span>Viet</span></a></h1>
@@ -32,21 +33,25 @@
                     <li><button type="button">Tìm <i class="fas fa-search"></i></button></li>
                 </ul>
             </nav>
-            <div class="poster">
-                <h1>Hai Phượng </h1>
-                <hr>
-                <h3>Trailer</h3>
-            </div>
-
-            <!--<ul class="indicator">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-            </ul> -->
-
+            <div>
+                <div class="poster">
+                    <h1 id=film_name>Hai Phượng </h1>
+                    <hr>
+                    <h3>Trailer</h3>
+                </div>
+            </div>             
         </div>
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <ul class="indicate">
+                <li id="btn1"></li>
+                <li id="btn2"></li>
+                <li id="btn3"></li>
+            </ul>
+        </div>  
     </header>
 
 
@@ -57,7 +62,7 @@
             <div class="movie">
                 <ul>
                     <li>
-                        <img src="trangquynh.jpg" alt="">
+                        <a href="#"><img src="trangquynh.jpg" alt=""></a>
                         <h3>Trạng Quỳnh</h3>
                         <span>2019</span>
                     </li>
@@ -129,14 +134,12 @@
                     </li>
                 </ul>
             </div>
-
-
         </div>
     </div>
 
 
     <script src="jquery-3.4.1.min.js"></script>
-    <script src=""></script>
+    <script type="text/javascript" src="project.js"></script>
 </body>
 
 </html>
