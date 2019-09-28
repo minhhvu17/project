@@ -10,18 +10,24 @@ button1.onclick = function(){
     header.style.background = "url('haiphuong.jpg') 0 0 no-repeat"
     filmName.innerHTML = "Hai Phượng"
     header.style.backgroundSize = "cover"
+    // header.style.webkitAnimationTimingFunction = "linear"
+    // header.style.animationTimingFunction = "linear"
 };
 
 button2.onclick = function(){
     header.style.background = "url('ngbattu.jpg') 0 0 no-repeat"
     filmName.innerHTML = "Người bất tử"
     header.style.backgroundSize = "cover"
+    // header.style.webkitAnimationTimingFunction = "linear"
+    // header.style.animationTimingFunction = "linear"
 };
 
 button3.onclick = function(){
     header.style.background = "url('trangquinh2.jpg') 0 0 no-repeat"
     filmName.innerHTML = "Trạng Quỳnh"
     header.style.backgroundSize = "cover"
+    // header.style.webkitAnimationTimingFunction = "linear"
+    // header.style.animationTimingFunction = "linear"
 };
 
 $(document).ready(function(){
