@@ -1,0 +1,250 @@
+body {
+    background-color: #0c0c0c !important;
+    color: #FFF !important;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    
+}
+
+/* header */
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.nav .tilt {
+    justify-self: flex-start;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 70px;
+}
+header .titl {
+    font-size: 1.2em;
+    float:left;
+    font-weight: bold;
+   font-family: 'Raleway', sans-serif;
+   
+}
+
+header .tilt .webname a {
+    color:#FFF;
+    text-decoration: none;
+}
+header .titl .webname a span {
+   font-weight: 100;
+   color: #3A94D0;
+   text-decoration: none;
+}
+header .titl small {
+   font-weight: 100;
+   opacity: 0.4;
+   margin-top: -10px;
+   display:block;
+}
+header nav {
+   float: left;
+   margin-top: 10px;
+   margin-left: 350px;
+   
+   
+}
+header nav li {
+   display: inline-block;
+   margin-left: 30px;
+   text-decoration: none;
+   font-size: 16.5px;
+   
+}
+
+header nav li a {
+    color:#FFF;
+    text-decoration: none;
+}
+header nav li a:hover{
+   text-decoration: none;
+   color:inherit;
+}
+.webname a {
+   text-decoration: none;
+}
+.webname a:hover {
+   color: inherit;
+}
+
+header nav li input {
+   width: 100%;
+   height: 30px;
+   border-radius: 200px;
+   background-color: rgb(46, 46, 46);
+   text-indent: 15px;
+   outline: none;
+   border:none;
+   margin-right: 50px;
+   color: #FFF;
+}
+header ul li button {
+   width: 100px;
+   height: 30px;
+   background-color: #EC407A;
+   border-radius: 200px;
+   outline: none;
+   border:none;
+   margin-left: -30px;
+}
+header ul li button:hover {
+   opacity: 0.5;
+   cursor: pointer;
+}
+header #slider {
+   overflow: hidden;
+}
+
+.line{
+    background: url("barre.png") 0 0 no-repeat;
+    height: 100px;
+    width: auto;
+    margin-left: 55px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.movie-info {
+    width: auto;
+    height: auto;
+    
+    background-color: rgb(26,26,26);
+    display: inline-block;
+    color: rgb(201, 201, 201);
+    /* position: absolute; */
+    margin: 5px;
+    left: 20%;
+    margin-top:20px;
+}
+
+.movie-status {
+    width: 600px;
+    height: 520px;
+    float: right;
+    background-color:rgb(46, 46, 46);
+    margin: 10px;
+    line-height: 150%;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.movie-status span {
+    color: #3A94D0;
+}
+
+.movie-title {
+    font-size: 40px;
+    float: left;
+    margin: 10px;
+    color: #FFF;
+    margin-left: 20px;
+    /* font-family: 'Raleway', sans-serif;
+    font-weight: bold; */
+    padding-top: 30px;
+}
+
+.film-poster {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    width:380px;
+    height: 520px;
+    
+}
+
+.description {
+    
+    margin: 10px;
+    color: rgb(201, 201, 201);
+    line-height: 150%;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.description p {
+    text-indent: 20px;
+}
+.trailer {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.film-video p {
+    text-indent: 30px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.display-row {
+    display: flex;
+}
+
+.display-column {
+    flex: 33.33%;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.description-title {
+    font-size: 15px;
+    color: #FFEA00;
+    margin: 10px;
+    margin-top: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.des-box {
+    margin-top: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    background-color: rgb(46, 46, 46);
+}
+
+.title-trans {
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+    kerning: 5px;
+}
+
+.link{
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+    padding: 14px 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;   
+}
+
+#yellow {
+    color:initial;
+    color: #FFEA00;
+}
+
+
+#red {
+    color:initial;
+    color: red;
+}
