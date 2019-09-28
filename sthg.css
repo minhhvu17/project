@@ -1,0 +1,110 @@
+.webback {
+    background-color: rebeccapurple;
+}
+
+
+
+.movie-info {
+    width: 700px;
+    height: auto;
+    float: none;
+    background-color: rgb(26,26,26);
+    display: inline-block;
+    color: rgb(201, 201, 201);
+    position: absolute;
+    margin: 5px;
+    left: 20%;
+}
+
+.movie-status {
+    overflow-y: scroll;
+    width: auto;
+    height: 230px;
+    float: right;
+    background-color:rgb(46, 46, 46);
+    margin: 10px;
+    line-height: 150%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.movie-title {
+    font-size: 25px;
+    float: left;
+    margin: 10px;
+    color: rgb(200,203,70);
+    font-family: 'Poppins', sans-serif;
+}
+
+.film-poster {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 400px;
+    
+}
+
+.description {
+    
+    margin: 10px;
+    color: rgb(201, 201, 201);
+    line-height: 150%;
+}
+
+.trailer {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.display-row {
+    display: flex;
+}
+
+.display-column {
+    flex: 33.33%;
+}
+
+.description-title {
+    font-size: 15px;
+    color: rgb(200,203,70);
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.des-box {
+    margin-top: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    background-color: rgb(46, 46, 46);
+}
+
+.title-trans {
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+    kerning: 5px;
+}
+
+.link{
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+    padding: 14px 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;   
+}
+
+.blue {
+    color: aqua;
+}
+
+.red {
+    color: red;
+}
+
