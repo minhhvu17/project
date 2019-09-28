@@ -13,28 +13,28 @@
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <title>Trạng Quỳnh|Phim Việt</title>
+    <title>|Phim Việt</title>
     <style>
-            /* width */
-            ::-webkit-scrollbar {
-              width: 10px;
-            }
-            
-            /* Track */
-            ::-webkit-scrollbar-track {
-              background: rgb(63, 63, 63);  
-            }
-             
-            /* Handle */
-            ::-webkit-scrollbar-thumb {
-              background: #808080;
-            }
-            
-            /* Handle on hover */
-            ::-webkit-scrollbar-thumb:hover {
-              background: #555; 
-            }
-            </style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: rgb(63, 63, 63);
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #808080;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
 </head>
 
 <body>
@@ -47,75 +47,22 @@
 
             <nav>
                 <ul>
-                    <li><a href="../project.html""><strong>Về trang chủ</strong></a></li>
+                    <li><a href="../project.html"><strong>Về trang chủ</strong></a></li>
                     <li><input type="text" name="search" value="" placeholder="Tìm kiếm"></li>
                     <li><button type="button">Tìm <i class="fas fa-search"></i></button></li>
                 </ul>
             </nav>
             <hr class="line">
-            <!-- ten phim -->
-            <div class="movie-title"></div>
-                <div class="webback">
-                <div class="movie-info">
-                    <div class="display-row">
-                        <img class="film-poster" src="img/trangquynh.jpg" alt="poster">
-                        <div class="display-column">
 
-                            <div class="movie-status">
-                                Trạng thái: <span>Hoàn tất</span>
-                                <br>Yêu thích: <span></span>
-                                <br>Đạo diễn: <span></span>
-                                <br>Năm: <span></span>
-                                <br>Ngày ra rạp: <span></span>
-                                <br>Thời lượng: <span></span>
-                                <br>Thể loại: <span></span>
-                                <br>Giới hạn tuổi: <span></span>
-                                <br>Công ty SX: <span></span>
-                                <br>Diễn viên chính: <span id="red">
-                                    <a data-toggle="tooltip" title=""></a>,
-                                    <a data-toggle="tooltip" title=""></a>,
-                                    <a data-toggle="tooltip" title=""></a>,
-                                    <a data-toggle="tooltip" title=""></a>,
-                                    <a data-toggle="tooltip" title=""></a>,
-                                    <a data-toggle="tooltip" title=""></a>.
-                                    <!-- <a data-toggle="tooltip" title=""></a>, -->
-                                </span>
-                                <br>Giới thiệu phim: <span id="yellow"></span>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="des-box">
-                        <div class="description-title"><br>[GÓC REVIEW]</div>
-                        <div class="description">
-                            <div><p></p> 
-                                <p></p> 
-                                <p></p>   
-                                <p></p>   
-                                <p></p>       
-                                <p></p>    
-                                     </div><br>
-
-                        </div>
-                    </div>
-                    <div class="film-video">
-                        <p>Official Trailer</p>
-                        <iframe class="trailer" width="1080" height="604.7" src="https://www.youtube.com/embed/"
-                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <p>Official OST</p>
-                        <iframe class="trailer" width="1080" height="604.7" src="https://www.youtube.com/embed/"
-                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        </div>
-                </div>
-            </div>
-            <script>
-                $(document).ready(function(){
-                  $('[data-toggle="tooltip"]').tooltip();
-                });
-                </script>
+            <div class="movie-title" id="data-film"></div>
+            <div ></div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+        <script src="./inside.js"></script>
 </body>
 
 </html>
