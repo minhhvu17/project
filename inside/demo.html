@@ -13,7 +13,8 @@
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <title>|Phim Việt</title>
+    <script src="./inside.js"></script>
+    <title>Hai Phượng|Phim Việt</title>
     <style>
         /* width */
         ::-webkit-scrollbar {
@@ -47,22 +48,20 @@
 
             <nav>
                 <ul>
-                    <li><a href="../project.html"><strong>Về trang chủ</strong></a></li>
-                    <li><input type="text" name="search" value="" placeholder="Tìm kiếm"></li>
-                    <li><button type="button">Tìm <i class="fas fa-search"></i></button></li>
+                    <li><a href="../project.html""><strong>Về trang chủ</strong></a></li>
+                    <li><input type=" text" name="search" value="" placeholder="Tìm kiếm"></li>
+                    <li><button type="button" id="searchBtn" onclick="myFunc()">Tìm <i
+                                class="fas fa-search"></i></button></li>
                 </ul>
             </nav>
-            <hr class="line">
-
-            <div id="data-film"></div>
-            <div ></div>
         </div>
-        <script>
-            $(document).ready(function () {
-                $('[data-toggle="tooltip"]').tooltip();
-            });
-        </script>
-        <script src="./inside.js"></script>
+    </header>
+    <hr class="line">
+    <!-- ten phim -->
+    <div id="dataFilm">
+        <h1>Hello</h1>
+    </div>
+    <script type="text/javascript" src="./inside.js"></script>
 </body>
 
 </html>
