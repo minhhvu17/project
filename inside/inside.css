@@ -143,6 +143,7 @@ header #slider {
     line-height: 150%;
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
 }
@@ -159,6 +160,7 @@ header #slider {
     /* font-family: 'Raleway', sans-serif;
     font-weight: bold; */
     padding-top: 30px;
+    text-align: justify;
     
 }
 
@@ -177,11 +179,9 @@ header #slider {
     color: rgb(201, 201, 201);
     line-height: 150%;
     font-family: 'Quicksand', sans-serif;
-    
+    text-align: justify;
 }
-.description p {
-    text-indent: 20px;
-}
+
 .trailer {
     margin-top: 0px;
     margin-left: 10px;
