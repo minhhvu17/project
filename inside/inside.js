@@ -275,43 +275,82 @@ const content = [
         ost: "https://www.youtube.com/embed/XGAmUNcjkyI",
     },
 
-    {
-        title: "",
-        picture: "./img/",
+    {//
+        title: "Vợ ba",
+        picture: "./img/vo3.png",
         status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
+        director: "Ash Mayfair",
+        rate: "60%",
+        debut: "17/05/2019",
+        year: "2019",
+        time: "94 phút",
+        genre: "Kịch",
+        limitAge: "18+",
         actor: [
             {
-                realName: "",
+                realName: "Nguyễn Phương Trà My",
+                actName: "Mây",
+            },
+            {
+                realName: "Tran Nu Yên-Khê",
                 actName: "",
             },
             {
-                realName: "",
+                realName: "Maya Mai Thu Hương",
                 actName: "",
             },
             {
-                realName: "",
+                realName: "Nguyễn Như Quỳnh",
                 actName: "",
             },
             {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
+                realName: "Long Lê Vũ",
                 actName: "",
             },
         ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
+        description: "Vợ Ba lấy bối cảnh vùng thôn quê Việt Nam cuối thế kỷ 19. Phim xoay quanh câu chuyện về cô gái tên Mây được gả làm vợ ba cho một gia đình giàu có. Tưởng như bắt đầu một cuộc sống sung túc, đầy đủ, cô gái trẻ không ngờ mình bị lôi vào một cuộc tranh đấu ngầm trong gia đình mới với vợ cả và vợ hai để có được vị trí quan trọng ở nhà chồng.",
+        review: "Vợ Ba không chỉ đơn thuần là một tác phẩm điện ảnh, mà nó như thể là một lời tâm tình của Ash Mayfair dành riêng cho phái nữ.</br>Mây (Nguyễn Phương Trà My), trẻ đẹp và trong veo như giọt sương trên lá buổi sớm. Chỉ mới 14 tuổi đã phải về làm vợ ba cho một địa chủ giàu có mà mình chưa bao giờ gặp mặt. Phim mở đầu một cách chậm rãi, như cái cách mà con thuyền đưa Mây băng qua hang động rồi đến nhà chồng. Không hề có một lời thoại nào để giới thiệu nhân vật hay bối cảnh. Mọi thứ chỉ diễn ra một cách tự nhiên và người xem như bị đưa vào một câu chuyện nửa hư nửa thực.</br>Đám cưới diễn ra một cách êm đềm, Mây nhanh chóng phải thực hiện bổn phận của người vợ vào đêm tân hôn. Thế nhưng, quá trình Mây trở thành phụ nữ được thực hiện một cách cẩn thận và tinh tế, đẹp và gợi cảm nhưng không gợi dục. Những chi tiết như Hùng (Lê Vũ Long) nuốt trứng sống từ rốn Mây, tấm vải thấm máu được treo lên vào sáng hôm sau, hay đoạn hội thoại về cách làm sao đạt được khoái cảm giữa ba người vợ, đều được khắc hoạ một cách tự nhiên, không hề dung tục. Đây đều là những vấn đề rất phụ nữ, những vấn đề mà nhiều người quan tâm, nhưng không phải nhà làm phim nào cũng đủ tinh tế và am hiểu chúng để đưa chúng lên màn ảnh như Ash Mayfair.</br>Mặc dù cốt truyện xoay quanh yếu tố đa thê, nhưng Vợ Ba không phải là câu chuyện tranh giành quyền lực gay gắt như trong các phim cung đấu. Quả thực phim cũng có một chút tính tranh giành quyền lực giữa những người vợ, bởi ai mà không muốn có được vị thế cao hơn, được chồng yêu thương nhiều hơn chứ? Nhưng cái mà Ash Mayfair muốn truyền tải không phải là sự ích kỉ, ghen tuông giữa những người phụ nữ, mà là tâm lý, thân phận và bản năng làm mẹ của họ. Cho dù là vợ thứ mấy thì họ cũng đều yêu thương những đứa trẻ, không quan tâm đó là trai hay gái.</br>Tính nữ quyền trong Vợ Ba được thể hiện một cách nhẹ nhàng, tinh tế và đầy nữ tính. Không cần phải là những người phụ nữ thật mạnh mẽ, có tính cách gai góc, làm được những chuyện mà đàn ông hay làm, hay hợp sức chống lại phái mạnh. Mà tính nữ quyền trong phim được thể hiện thông qua những thứ mà phụ nữ vốn có và cách mà họ thấu hiểu, bao bọc nhau. Không chỉ có Mây, Hà và Xuân, mà trong cuộc đời vẫn còn đâu đó những người phụ nữ hay các cô gái trẻ bị bỏ rơi, bạc đãi, buộc phải đấu đá lẫn nhau, phải trải qua những tổn thương tâm lý và phải bó mình trong những chuẩn mực của xã hội và số phận, như những con tằm bị đun sống ở trong kén trước khi có thể thoát xác thành ngài.</br>Tính nữ quyền trong Vợ Ba được thể hiện một cách nhẹ nhàng, tinh tế và đầy nữ tính. Không cần phải là những người phụ nữ thật mạnh mẽ, có tính cách gai góc, làm được những chuyện mà đàn ông hay làm, hay hợp sức chống lại phái mạnh. Mà tính nữ quyền trong phim được thể hiện thông qua những thứ mà phụ nữ vốn có và cách mà họ thấu hiểu, bao bọc nhau. Không chỉ có Mây, Hà và Xuân, mà trong cuộc đời vẫn còn đâu đó những người phụ nữ hay các cô gái trẻ bị bỏ rơi, bạc đãi, buộc phải đấu đá lẫn nhau, phải trải qua những tổn thương tâm lý và phải bó mình trong những chuẩn mực của xã hội và số phận, như những con tằm bị đun sống ở trong kén trước khi có thể thoát xác thành ngài.",
+        trailer: "https://www.youtube.com/embed/e3Gr7r7yWU8",
+        ost: "https://www.youtube.com/embed/NwyWtggZxTs",
+    },
+
+    {//nguoi bat tu
+        title: "Người bất tử",
+        picture: "./img/ng_bat_tu.jpg",
+        status: "Hoàn tất",
+        director: "Victor Vũ",
+        rate: "70%",
+        debut: "26/10/2018",
+        year: "2018",
+        time: "130 phút",
+        genre: "Kịch, giật gân",
+        limitAge: "18+",
+        actor: [
+            {
+                realName: "Quách Ngọc Ngoan",
+                actName: "Hùng",
+            },
+            {
+                realName: "Ngọc Diệp",
+                actName: "An",
+            },
+            {
+                realName: "Jun Vũ",
+                actName: "Liên",
+            },
+            {
+                realName: "Thanh Tú",
+                actName: "Duyên",
+            },
+            {
+                realName: "Cường Seven",
+                actName: "Lộc",
+            },
+        ],
+        description: "Câu chuyện về cuộc đời thăng trầm với đầy rẫy những tham vọng và sự thù hận của Hùng – người đàn ông đã sống qua ba thế kỉ.",
+        review: "Mặc dù có cái kết chưa được trọn vẹn cho lắm, có thể khiến nhiều khán giả hụt hẫng và “hoang mang”, nhưng đây vẫn là một trong những tác phẩm có tầm và có tâm nhất của nền điện ảnh nước nhà.</br>Là một trong những đạo diễn tài năng nhất của Việt Nam với nhiều bộ phim ấn tượng như Oan Hồn, Thiên Mệnh Anh Hùng, Scandal, Quả Tim Máu… Victor Vũ luôn khiến khán giả phải trông ngóng mỗi khi có phim mới được ra mắt. Chỉ cần nghe đến “thương hiệu” Victor Vũ, người hâm mộ đều muốn được thưởng thức tác phẩm mới của anh bất chấp thể loại và nội dung.</brNgười Bất Tử - bộ phim mới nhất của Victor Vũ cũng không phải là ngoại lệ. Và không phụ lòng của khán giả, không hổ danh là bộ phim được Victor Vũ dành nhiều tâm huyết nhất, Người Bất Tử đã mang đến cho khán giả một tác phẩm điện ảnh được đầu tư công phu, cốt truyện mới lạ và chất ma mị, rùng rợn đặc trưng của vị đạo diễn tài năng. Mặc dù có cái kết chưa được trọn vẹn cho lắm, có thể khiến nhiều khán giả hụt hẫng và “hoang mang”, nhưng đây vẫn là một trong những tác phẩm có tầm và có tâm nhất của nền điện ảnh nước nhà.</br>Với kịch bản mới lạ, đậm chất tâm linh và những cú twist đặc sắc, có thể nói Người Bất Tử đã thổi một làn gió mới vào nền điện ảnh Việt giữa hàng loạt các phim remake. Xem phim, khán giả như được bước vào Việt Nam đầu thế kỷ 20 thực sự, chứ không chỉ là ngắm nhìn qua màn ảnh khi các bối cảnh, phục trang, nội thất được đầu tư công phu và tỉ mỉ. Những bữa tiệc xa hoa lộng lẫy, đồn điền của các địa chủ giàu có lúc bấy giờ, phiên chợ Bắc Bộ thập niên 40, góc phố với quán cà phê đậm chất Pháp, căn biệt thự của gia đình Hùng... tất cả đều mang hơi thở của một thời kì giao thoa tiếp biến văn hoá đặc sắc.</br>Cuộc đời của Hùng kéo dài tới 3 thế kỷ, chính vì thế bối cảnh không chỉ gói gọn ở một địa điểm mà trải dài khắp mọi nơi khi nhân vật này đi lang bạt. Khán giả sẽ được chiêm ngưỡng những khung cảnh vô cùng hùng vĩ và hoang sơ. Quả thật không ngoa khi nói rằng Người Bất Tử là một trong những phim Việt có phần hình ảnh đẹp và nghệ thuật nhất từ trước đến nay.</br>Tài năng của Victor Vũ không chỉ được thể hiện qua những điều mà người viết đã nói ở trên, mà còn được thể hiện rõ qua cách chọn diễn viên cho từng nhân vật, đặc biệt là nam chính do Quách Ngọc Ngoan đảm nhận. Không thể phủ nhận rằng anh là lựa chọn đúng đắn và sáng giá nhất cho vai diễn này, khi thể hiện được mọi sắc thái của Hùng từ hạnh phúc, căm phẫn, thù hận, ăn năn nhờ đôi mắt vô cùng có hồn, ẩn chứa nhiều cảm xúc. Hùng là một nhân vật phức tạp, anh ta có thể ân cần, trìu mến, dịu dàng khi ở bên người mình yêu, nhưng vẫn có thể cực kì tàn độc đối với những ai đã hại mình. Hùng là một người đáng trách khi quá tham vọng và luôn nuôi dưỡng thù hận, nhưng anh cũng là một con người đáng thương khi mất hết tất cả và phải làm nô lệ cho chính số phận mình. Quách Ngọc Ngoan đã có một màn hoá thân cực kì xuất sắc và thể hiện được tất cả những cảm xúc đầy mâu thuẫn của nhân vật này.</br>Các diễn viên khác như Đinh Ngọc Diệp, Jun Vũ, Thanh Tú đều diễn rất tròn vai. Thanh Tú tuy là gương mặt mới của màn ảnh Việt, trước đây phần lớn chỉ đóng vai phụ và chưa có nhiều vai diễn ấn tượng, nhưng trong Người Bất Tử cô đã thực sự thể hiện được tài năng của mình, hoá thân thành cô gái miền biển tên Duyên mộc mạc, chân thành nhưng lại mang nét quyến rũ lạ thường. Jun Vũ thì mang vẻ đẹp đầy gợi tình, khiến người khác muốn giết người (theo đúng nghĩa đen), vẻ đẹp của một ả đào mỏng manh, yêu kiều và quý phái. Cô cũng đã diễn rất tròn vai, đặc biệt là những đoạn kinh dị, rất xuất sắc.</br>Người Bất Tử vẫn là tác phẩm Việt rất đáng xem, đặc biệt là đối với những ai là fan của Victor Vũ thì không thể bỏ qua.  Phim thể hiện sự đầu tư công phu, tỉ mỉ không chỉ của riêng Victor Vũ mà của cả một ekip chuyên nghiệp từ quay phim, kĩ xảo, xây dựng bối cảnh, phục trang cho đến phần âm nhạc. Bộ phim đã cho thấy sự trưởng thành rất nhiều trong cách làm phim của Victor Vũ nói riêng và điện ảnh Việt nói chung. Hy vọng rằng trong tương lai anh sẽ còn mang đến nhiều tác phẩm điện ảnh chất lượng khác để củng cố niềm tin của khán giả Việt đối với điện ảnh nước nhà, và truyền cảm hứng cho những nhà làm phim hiện tại và những thế hệ sau này.",
+        trailer: "https://www.youtube.com/embed/6VEVPtFDN_U",
+        ost: "https://www.youtube.com/embed/meqLjGa_WC8",
     },
 
     {
@@ -1367,58 +1406,8 @@ const content = [
         ost: "https://www.youtube.com/embed/",
     },
 
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
 
-
-]
-
-
-
-
-
-
-
-
-
-
-
+];
 
 
 var realName, actName;
@@ -1488,3 +1477,5 @@ content.map(item => {
     </div>`
     elementFilm.insertAdjacentHTML("beforeend", html)
 })
+
+
