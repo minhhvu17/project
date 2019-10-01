@@ -7,7 +7,7 @@ body {
     
 }
 
-/* header */
+
 .nav {
     display: flex;
     width: 100%;
@@ -36,7 +36,7 @@ header .titl {
     font-size: 1.2em;
     float:left;
     font-weight: bold;
-   font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
    
 }
 
@@ -143,21 +143,25 @@ header #slider {
     line-height: 150%;
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
     font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
 }
 .movie-status span {
     color: #3A94D0;
 }
 
 .movie-title {
-    font-size: 40px;
+    font-size: 30px;
     float: left;
-    margin: 10px;
+    margin: 0px;
     color: #FFF;
     margin-left: 20px;
     /* font-family: 'Raleway', sans-serif;
     font-weight: bold; */
     padding-top: 30px;
+    text-align: justify;
+    
 }
 
 .film-poster {
@@ -170,16 +174,14 @@ header #slider {
 }
 
 .description {
-    
+    font-size: 17px;
     margin: 10px;
     color: rgb(201, 201, 201);
     line-height: 150%;
     font-family: 'Quicksand', sans-serif;
-    
+    text-align: justify;
 }
-.description p {
-    text-indent: 20px;
-}
+
 .trailer {
     margin-top: 0px;
     margin-left: 10px;

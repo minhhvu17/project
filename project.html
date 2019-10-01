@@ -2,41 +2,51 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="project.css">
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="project.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
     <title>Phim Việt|Web phim dành cho người Việt</title>
 </head>
 
 <body>
-
     <header id="head">
         <div class="container">
             <div class="titl">
-                <h1 class="webname"><a href="project.html"> Phim <span>Viet</span></a></h1>
+                <h1 class="webname">
+                    <a href="project.html"> Phim <span>Viet</span></a>
+                </h1>
                 <small>Trang phim cho người Việt</small>
             </div>
 
             <nav>
                 <ul>
-                    <li><a href="#" style="color: black;"><strong>Trang chủ</strong></a></li>
+                    <li>
+                        <a href="#" style="color: black;"><strong>Trang chủ</strong></a>
+                    </li>
                     <li><a href="#category1">Phim Hot</a></li>
                     <li><a href="#category2">Phim chiếu rạp</a></li>
                     <li><a href="#category3">Phim bộ</a></li>
-                    <li><input type="text" name="search" value="" placeholder="Tìm kiếm"></li>
-                    <li><button type="button">Tìm <i class="fas fa-search"></i></button></li>
+                    <li>
+                        <input type="text" name="search" onchange="handleSearch()" id="search" value=""
+                            placeholder="Tìm kiếm" />
+                    </li>
+                    <li>
+                        <button type="button" id="searchBtn" onclick="myFunc()">
+                            Tìm <i class="fas fa-search"></i>
+                        </button>
+                    </li>
                 </ul>
             </nav>
             <div>
                 <div class="poster">
-                    <h1 id=film_name>Hai Phượng </h1>
-                    <hr>
+                    <h1 id="film_name">Hai Phượng</h1>
+                    <hr />
                     <h3>2019</h3>
                 </div>
             </div>
@@ -50,15 +60,13 @@
     </header>
 
     <div class="intro">
-        Tổng hợp và đánh giá những bộ phim Việt Nam hay nhất - Giới thiệu phim sắp ra rạp
-
+        Tổng hợp và đánh giá những bộ phim Việt Nam hay nhất - Giới thiệu
+        phim sắp ra rạp
     </div>
-
-
 
     <div class="filmintro">
         <div class="contain">
-            <h1 id="category1">Phim Hot<span><img class="logo" src="logo/fire.png - Shortcut.lnk" alt=""></span></h1>
+            <h1 id="category1">Phim Hot<span><img class="logo" src="logo/fire.png" alt=""></span></h1>
             <div class="movie">
                 <ul>
                     <li>
@@ -66,8 +74,8 @@
                         <h3>Trạng Quỳnh</h3>
                         <span>2019</span>
                     </li>
-                    <li>
-                        <a href=""><img src="img/venhadicon.jpg" alt=""></a>
+                    <li class="venhadicon">
+                        <a href="inside/venhadicon.html"><img src="img/venhadicon.jpg" alt=""></a>
                         <h3>Về nhà đi con</h3>
                         <span>2019</span>
                     </li>
@@ -77,13 +85,13 @@
                         <span>2019</span>
                     </li>
                     <li>
-                        <a href=""><img src="img/cualaivobau.jpg" alt=""></a>
+                        <a href="inside/cualaivobau.html"><img src="img/cualaivobau.jpg" alt=""></a>
                         <h3>Cua lại vợ bầu</h3>
                         <span>2019</span>
                     </li>
 
                     <li>
-                        <a href=""><img src="img/hoan doi.jpg" alt=""></a>
+                        <a href=""><img src="img/hoandoi.jpg" alt=""></a>
                         <h3>Hoán đổi</h3>
                         <span>2018</span>
                     </li>
@@ -98,7 +106,6 @@
                         <span></span>
                     </li>
                     <li>
-                        <a href=""><img src="img/" alt=""></a>
                         <h3></h3>
                         <span></span>
                     </li>
@@ -108,7 +115,7 @@
             <div class="movie">
                 <ul>
                     <li>
-                        <a href=""><img src="img/2phuong.jpg" alt=""></a>
+                        <a href="inside/haiphuong.html"><img src="img/2phuong.jpg" alt=""></a>
                         <h3>Hai Phượng</h3>
                         <span>2019</span>
                     </li>
@@ -118,7 +125,7 @@
                         <span>2019</span>
                     </li>
                     <li>
-                        <a href=""><img src="img/trangquynh.jpg" alt=""></a>
+                        <a href="inside/trangquynh.html"><img src="img/trangquynh.jpg" alt=""></a>
                         <h3>Trạng Quỳnh</h3>
                         <span>2019</span>
                     </li>
@@ -198,7 +205,7 @@
                         <span>2019</span>
                     </li>
                     <li>
-                        <a href=""><img src="img/venhadicon.jpg" alt=""></a>
+                        <a href="inside/venhadicon.html"><img src="img/venhadicon.jpg" alt=""></a>
                         <h3>Về nhà đi con</h3>
                         <span>2019</span>
                     </li>
@@ -256,13 +263,15 @@
             </div>
         </div>
     </div>
+    <div id="dataFilm"></div>
     <footer>
         <div class="footer1">
-            <img src="rap.jpg" alt="">
+            <img src="rap.jpg" alt="" />
         </div>
     </footer>
 
     <script src="jquery-3.4.1.min.js"></script>
+    <script src="./inside/inside.js"></script>
     <script type="text/javascript" src="project.js"></script>
 </body>
 
