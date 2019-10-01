@@ -1,6 +1,8 @@
 const content = [
-    {//trang quynh
+    {
+        //trang quynh
         title: "Trạng Quỳnh",
+        nameId: "trang_quynh",
         picture: "./img/trangquynh.jpg",
         status: "Hoàn tất",
         director: "Đức Thịnh",
@@ -13,33 +15,37 @@ const content = [
         actor: [
             {
                 realName: "Nhã Phương",
-                actName: "Điềm",
+                actName: "Điềm"
             },
             {
                 realName: "Quốc Anh",
-                actName: "Quỳnh",
+                actName: "Quỳnh"
             },
             {
                 realName: "Trấn Thành",
-                actName: "Xẩm",
+                actName: "Xẩm"
             },
             {
                 realName: "Công Dương",
-                actName: "Trịnh Bá",
+                actName: "Trịnh Bá"
             },
             {
                 realName: "Khả Như",
-                actName: "ả Liễu",
-            },
+                actName: "ả Liễu"
+            }
         ],
-        description: "Trạng Quỳnh sẽ xoay quanh hành trình giải cứu thầy Đoàn, đồng thời là cha Điềm đầy gian truân nhưng cũng nhiều tiếng cười của những con người nhỏ bé trong xã hội phong kiến dù luôn bị chèn ép bởi tầng lớp quan lại bất công.",
-        review: "Nhân vật Trạng Quỳnh từ lâu đã được người Việt yêu thích qua những câu chuyện dân gian dí dỏm, đầy giải trí. Nội dung phim cũng được phóng tác từ những câu chuyện này nên cũng khá gần gũi. Kịch bản phim tuy còn đôi chỗ chưa mạch lạc nhưng nhìn chung phim làm khá tốt phần giải trí, nội dung dễ xem và dễ hiểu. Xem phim, khán giả sẽ gặp lại những mẩu chuyện Trạng Quỳnh quen thuộc, những câu đối và những màn gây cười trào lộng, dí dỏm được yêu thích trong dân gian xưa.</br>Tuy nhiên, phim lại không tránh khỏi một vài màn hài nhảm kinh điển của phim Việt. Chẳng hạn như cảnh nhân vật Xẩm nhảy theo nhạc vũ trường (vinahouse). Nếu bỏ những cảnh hài nhảm này thì phim đã hay hơn nhiều.</br> Phim không bám sát hoàn toàn theo những giai thoại gốc mà nhiều chi tiết được thêm thắt và cách tân. Chẳng hạn như cảnh chèo bè lên kinh ứng thí của Quỳnh được thực hiện khá đẹp và công phu. Hay cảnh thi vẽ với sứ giả Trung Quốc cũng được thay đổi so với bản gốc để làm nổi bật bản sắc dân tộc hơn. Thay vì để Quỳnh vẽ 10 con giun đất như trong truyện thì trong phim, Quỳnh vẽ những cánh diều để thể hiện nét đẹp của đất nước và lòng tự tôn của dân tộc.</br>Vì chỉ là tác phẩm phóng tác thuần giải trí nên yếu tố phục trang và giọng nói trong phim không bị bối cảnh lịch sử thời Lê – Trịnh ràng buộc nhiều. Phục trang trong phim có thể được xem là đẹp, mang màu sắc dân gian cách điệu thể hiện được tính cách và xuất thân của các nhân vật khi mỗi người có một màu riêng.</br>Theo giai thoại dân gian, Trạng Quỳnh quê ở Hoằng Hoá (Thanh Hoá). Thế nhưng trong phim hầu hết các nhân vật đều nói giọng miền Nam, chỉ có một nhân vật nói giọng Bắc. Chính vì thế, khán giả nào mong đợi đây sẽ là một tác phẩm cổ trang có giọng nói, phục trang và bối cảnh bám sát lịch sử thì chắc chắn sẽ thất vọng.</br>Còn nhiều điểm thiếu sót, nhưng nhìn chung Trạng Quỳnh vẫn làm rất tốt phần giải trí. Đậm chất dân gian Việt Nam, nội dung gần gũi, hài hước, dễ xem, dễ hiểu, hình ảnh đẹp. Nếu bạn cần tìm một bộ phim thuần giải trí, xem để cười và để có những phút giây thư giãn bên gia đình và bạn bè trong dịp Tết, thì Trạng Quỳnh là một trong những phim đáng để cân nhắc đấy.",
+        description:
+            "Trạng Quỳnh sẽ xoay quanh hành trình giải cứu thầy Đoàn, đồng thời là cha Điềm đầy gian truân nhưng cũng nhiều tiếng cười của những con người nhỏ bé trong xã hội phong kiến dù luôn bị chèn ép bởi tầng lớp quan lại bất công.",
+        review:
+            "Nhân vật Trạng Quỳnh từ lâu đã được người Việt yêu thích qua những câu chuyện dân gian dí dỏm, đầy giải trí. Nội dung phim cũng được phóng tác từ những câu chuyện này nên cũng khá gần gũi. Kịch bản phim tuy còn đôi chỗ chưa mạch lạc nhưng nhìn chung phim làm khá tốt phần giải trí, nội dung dễ xem và dễ hiểu. Xem phim, khán giả sẽ gặp lại những mẩu chuyện Trạng Quỳnh quen thuộc, những câu đối và những màn gây cười trào lộng, dí dỏm được yêu thích trong dân gian xưa.</br>Tuy nhiên, phim lại không tránh khỏi một vài màn hài nhảm kinh điển của phim Việt. Chẳng hạn như cảnh nhân vật Xẩm nhảy theo nhạc vũ trường (vinahouse). Nếu bỏ những cảnh hài nhảm này thì phim đã hay hơn nhiều.</br> Phim không bám sát hoàn toàn theo những giai thoại gốc mà nhiều chi tiết được thêm thắt và cách tân. Chẳng hạn như cảnh chèo bè lên kinh ứng thí của Quỳnh được thực hiện khá đẹp và công phu. Hay cảnh thi vẽ với sứ giả Trung Quốc cũng được thay đổi so với bản gốc để làm nổi bật bản sắc dân tộc hơn. Thay vì để Quỳnh vẽ 10 con giun đất như trong truyện thì trong phim, Quỳnh vẽ những cánh diều để thể hiện nét đẹp của đất nước và lòng tự tôn của dân tộc.</br>Vì chỉ là tác phẩm phóng tác thuần giải trí nên yếu tố phục trang và giọng nói trong phim không bị bối cảnh lịch sử thời Lê – Trịnh ràng buộc nhiều. Phục trang trong phim có thể được xem là đẹp, mang màu sắc dân gian cách điệu thể hiện được tính cách và xuất thân của các nhân vật khi mỗi người có một màu riêng.</br>Theo giai thoại dân gian, Trạng Quỳnh quê ở Hoằng Hoá (Thanh Hoá). Thế nhưng trong phim hầu hết các nhân vật đều nói giọng miền Nam, chỉ có một nhân vật nói giọng Bắc. Chính vì thế, khán giả nào mong đợi đây sẽ là một tác phẩm cổ trang có giọng nói, phục trang và bối cảnh bám sát lịch sử thì chắc chắn sẽ thất vọng.</br>Còn nhiều điểm thiếu sót, nhưng nhìn chung Trạng Quỳnh vẫn làm rất tốt phần giải trí. Đậm chất dân gian Việt Nam, nội dung gần gũi, hài hước, dễ xem, dễ hiểu, hình ảnh đẹp. Nếu bạn cần tìm một bộ phim thuần giải trí, xem để cười và để có những phút giây thư giãn bên gia đình và bạn bè trong dịp Tết, thì Trạng Quỳnh là một trong những phim đáng để cân nhắc đấy.",
         trailer: "https://www.youtube.com/embed/ikXMNocYUeY",
-        ost: "https://www.youtube.com/embed/nbmK9n6irLw",
+        ost: "https://www.youtube.com/embed/nbmK9n6irLw"
     },
 
-    {//ve nha di con
+    {
+        //ve nha di con
         title: "Về nhà đi con",
+        nameId: "ve_nha_di_con",
         picture: "./img/venhadicon.jpg",
         status: "Hoàn tất",
 
@@ -54,34 +60,37 @@ const content = [
         actor: [
             {
                 realName: "Bảo Hân",
-                actName: "Ánh Dương",
+                actName: "Ánh Dương"
             },
             {
                 realName: "Trung Anh",
-                actName: "Ông Sơn",
+                actName: "Ông Sơn"
             },
             {
                 realName: "Thư Quỳnh",
-                actName: "Thu Huệ",
+                actName: "Thu Huệ"
             },
             {
                 realName: "Bảo Thanh",
-                actName: "Anh Thư",
+                actName: "Anh Thư"
             },
             {
                 realName: "Quốc Trường",
-                actName: "Vũ",
-            },
+                actName: "Vũ"
+            }
         ],
-        description: "Câu chuyện phim Về nhà đi con xoay quanh 3 chị em gái Thu Huệ (Thu Quỳnh), Anh Thư (Bảo Thanh), Ánh Dương (Bảo Hân) mồ côi mẹ từ thuở nhỏ, mỗi người một tính cách, một lối sống. Chị cả Thu Huệ đảm đang, dịu dàng, điềm đạm; cô hai Anh Thư xinh đẹp, sắc sảo, thực dụng; cô út Ánh Dương bộc trực, hoang dã, như một cậu con trai. Cả ba chị em đều gặp phải những biến cố của riêng mình nhưng họ may mắn có chung một điểm tựa là ông Sơn (NSƯT Trung Anh) - một người bố tận tuỵ, hết mực yêu thương các con. Sau nhiều biến cố, cuối cùng, 3 cô con gái đều nhận ra hạnh phúc lớn nhất mà họ có được chính là một người bố luôn sẵn sàng bao bọc và nói về nhà đi con bất cứ khi nào họ cần một mái ấm.",
+        description:
+            "Câu chuyện phim Về nhà đi con xoay quanh 3 chị em gái Thu Huệ (Thu Quỳnh), Anh Thư (Bảo Thanh), Ánh Dương (Bảo Hân) mồ côi mẹ từ thuở nhỏ, mỗi người một tính cách, một lối sống. Chị cả Thu Huệ đảm đang, dịu dàng, điềm đạm; cô hai Anh Thư xinh đẹp, sắc sảo, thực dụng; cô út Ánh Dương bộc trực, hoang dã, như một cậu con trai. Cả ba chị em đều gặp phải những biến cố của riêng mình nhưng họ may mắn có chung một điểm tựa là ông Sơn (NSƯT Trung Anh) - một người bố tận tuỵ, hết mực yêu thương các con. Sau nhiều biến cố, cuối cùng, 3 cô con gái đều nhận ra hạnh phúc lớn nhất mà họ có được chính là một người bố luôn sẵn sàng bao bọc và nói về nhà đi con bất cứ khi nào họ cần một mái ấm.",
         review: `Mặc dù đề tài phim là cuộc sống gia đình Việt Nam quen thuộc, về nhà đi con đã tạo nên một cơn sốt trên truyền hình Việt Nam nói chung và VTV nói riêng trong năm 2019, 
         trở thành món ăn tinh thần của một bộ phận phần đông khán giả phim truyền hình Việt Nam trong năm này. </br> Dù chỉ vỏn vẹn với khoảng 30 phút mỗi tập, cùng với thời lượng dành cho quảng cáo không hề ít nhưng phim vẫn không hề giảm nhiệt. Sức hút của bộ phim được tạo ra và lan truyền trên mạng xã hội, một lý do quan trọng làm nên thành công này. Từng tập phim được khán giả trông mong, ngóng chờ mỗi thứ 2 đến thứ 6 hàng tuần; từng đoạn preview thu hút hàng triệu lượt xem trên Youtube hay Facebook; và cả những chi tiết phim cũng được quan tâm không kém. Cơn sốt Về nhà đi con trong năm 2019 còn làm bất ngờ cho ekip làm phim, trong đó có cả các diễn viên tham gia đóng phim; có diễn viên còn bị cộng đồng mạng tấn công và lăng mạ chỉ vì vai diễn phản diện trong phim. Đó còn là kịch bản độc đáo, đặc biệt còn được lấy cảm hứng từ Khi đàn ông góa vợ bật khóc từng ăn khách trên sóng VTV năm 2013, với nhiều éo le, ngang trái, đấy kịch tính và bất ngờ nhưng ẩn sau là những bài học đáng giá, những giây phút lắng đọng về ý nghĩa của gia đình trong đời sống mỗi con người. Nhiều khán giả bày tỏ nhìn thấy một phần hình ảnh người thân của mình trên phim, nhất là qua nhân vật người bố do NSƯT Trung Anh thể hiện. Cùng với đó là diễn xuất tự nhiên, chân thực, tính cách rõ rệt mang lại nhiều cảm xúc cho người xem của dàn diễn viên cũng đã góp phần vào thành công chung của tác phẩm.`,
         trailer: "https://www.youtube.com/embed/vHdIXkg84QI",
-        ost: "https://www.youtube.com/embed/mRZxQCksyxo",
+        ost: "https://www.youtube.com/embed/mRZxQCksyxo"
     },
 
-    {//hai phuong
+    {
+        //hai phuong
         title: "Hai Phượng",
+        nameId: "hai_phuong",
         picture: "./img/2phuong.jpg",
         status: "Hoàn tất",
         director: "Lê Văn Kiệt",
@@ -94,33 +103,37 @@ const content = [
         actor: [
             {
                 realName: "Ngô Thanh Vân",
-                actName: "Hai Phượng",
+                actName: "Hai Phượng"
             },
             {
                 realName: "Phan Thanh Nhiên",
-                actName: "",
+                actName: ""
             },
             {
                 realName: "Mai Cát Vy",
-                actName: "",
+                actName: ""
             },
             {
                 realName: "Thạch Kim Long",
-                actName: "",
+                actName: ""
             },
             {
                 realName: "",
-                actName: "",
-            },
+                actName: ""
+            }
         ],
-        description: "Hai Phượng là hành trình nghẹt thở và căng thẳng của bà mẹ đơn thân Hai Phượng khi phải đối đầu với cả 1 đường dây tội phạm bắt cóc và buôn bán nội tạng xuyên quốc gia để cứu đứa con gái bé bỏng Mai. Để cứu được con, Hai Phượng chỉ có 14 tiếng đồng hồ, bất kỳ một sơ xuất nhỏ nào cũng sẽ phải trả giá bằng chính mạng sống của chính cô và bé Mai.",
-        review: "Sau một mùa phim Tết đầy biến động thì Hai Phượng (Furie) chính là điểm sáng của điện ảnh Việt trong năm nay và là tác phẩm mang đến cho khán giả niềm tin vào nền điện ảnh nước nhà. Hai Phượng là một bộ phim có đề tài không mới. Ngay từ khi công bố dự án khán giả đã so sánh này với series Taken của Liam Neeson. Nhưng Hai Phượng có nhiều yếu tố để tạo nên dấu ấn riêng, và không ngoa khi nói rằng đây là bộ phim Việt đạt chuẩn Hollywood cho đến thời điểm hiện tại.</br> Không cần có một kịch bản phức tạp với nhiều subplot (cốt truyện phụ) để “hack” não khán giả, Hai Phượng với kịch bản đơn tuyến vẫn khiến người xem không thể rời mắt trong suốt thời lượng 100 phút. Phim chỉ đơn giản là hành trình người mẹ đi cứu đứa con gái bị bắt cóc, qua đó triệt phá được đường dây buôn bán trẻ em xuyên quốc gia. Câu chuyện tuy đơn giản và đề tài khá cũ nhưng lại dễ theo dõi. Các nhân vật khác cũng được xây dựng vừa đủ, đóng vai trò nhất định trong cốt truyện và không có ai là dư thừa. Hành trình cứu con của Hai Phượng diễn ra liên tục trong 14 giờ đồng hồ, nhưng không tạo cảm giác lê thê hay cụt lủn và nhịp phim giữ được phong độ khá tốt.</br> Những cảnh hành động, đánh đấm trong Hai Phượng còn khiến người xem cảm thấy cảm phục. Các pha đánh đấm đều được thực hiện rất cụ thể và bài bản, từng động tác, từng vị trí đánh đều rất chuyên nghiệp. Đặc biệt là màn kết liễu nhân vật phản diện của Hai Phượng khiến ai cũng phải vỗ tay và trầm trồ khen ngợi.</br>Đã là phim hành động thì dĩ nhiên mảng hành động, đánh đấm được chăm chút nhiều nhất. Thế nhưng ở Hai Phượng còn có một điểm đáng khen khác, đó chính là màu sắc. Hai màu chủ đạo trong phim là tím và xanh, tạo cảm giác vừa u buồn vừa bí ẩn và nguy hiểm. Mà đẹp nhất chính là những lúc Hai Phượng lang thang, luồn lách trong những con hẻm ở Sài Gòn để tìm manh mối cứu con mình. Ánh sáng, màu sắc, góc quay lúc này mang dáng dấp của văn hoá cyberpunk – thứ văn hoá đặc trưng với hình ảnh những đô thị ảm đạm, tăm tối, những góc phố, con đường, con hẻm sáng rực ánh đèn neon xanh tím, và hình ảnh của những con người chen chúc, bước đi trong hối hả.</br>Hai Phượng lại chứa đựng những chi tiết rất riêng, khiến nó trở thành một bộ phim “nhỏ nhưng có võ”, đạt đến chuẩn quốc tế nhưng vẫn mang dấu ấn của Việt Nam trong đó. Từ chiếc áo bà ba, bối cảnh miền Tây sông nước, những con hẻm tăm tối ở Sài Gòn, cho đến cách chọn đạo cụ để chiến đấu.</br>Là bộ phim hành động cuối cùng của Ngô Thanh Vân trong vai trò đả nữ, Hai Phượng quả thật là một cột mốc đẹp và đáng nhớ trong sự nghiệp của Ngô Thanh Vân nói riêng, và điện ảnh nước nhà nói chung. Hy vọng rằng trong tương lai chúng ta sẽ được thưởng thức thêm nhiều bộ phim xịn như thế này.</br>Chúc mừng ekip và cảm ơn Ngô Thanh Vân vì đã đưa điện ảnh Việt ra thế giới!",
+        description:
+            "Hai Phượng là hành trình nghẹt thở và căng thẳng của bà mẹ đơn thân Hai Phượng khi phải đối đầu với cả 1 đường dây tội phạm bắt cóc và buôn bán nội tạng xuyên quốc gia để cứu đứa con gái bé bỏng Mai. Để cứu được con, Hai Phượng chỉ có 14 tiếng đồng hồ, bất kỳ một sơ xuất nhỏ nào cũng sẽ phải trả giá bằng chính mạng sống của chính cô và bé Mai.",
+        review:
+            "Sau một mùa phim Tết đầy biến động thì Hai Phượng (Furie) chính là điểm sáng của điện ảnh Việt trong năm nay và là tác phẩm mang đến cho khán giả niềm tin vào nền điện ảnh nước nhà. Hai Phượng là một bộ phim có đề tài không mới. Ngay từ khi công bố dự án khán giả đã so sánh này với series Taken của Liam Neeson. Nhưng Hai Phượng có nhiều yếu tố để tạo nên dấu ấn riêng, và không ngoa khi nói rằng đây là bộ phim Việt đạt chuẩn Hollywood cho đến thời điểm hiện tại.</br> Không cần có một kịch bản phức tạp với nhiều subplot (cốt truyện phụ) để “hack” não khán giả, Hai Phượng với kịch bản đơn tuyến vẫn khiến người xem không thể rời mắt trong suốt thời lượng 100 phút. Phim chỉ đơn giản là hành trình người mẹ đi cứu đứa con gái bị bắt cóc, qua đó triệt phá được đường dây buôn bán trẻ em xuyên quốc gia. Câu chuyện tuy đơn giản và đề tài khá cũ nhưng lại dễ theo dõi. Các nhân vật khác cũng được xây dựng vừa đủ, đóng vai trò nhất định trong cốt truyện và không có ai là dư thừa. Hành trình cứu con của Hai Phượng diễn ra liên tục trong 14 giờ đồng hồ, nhưng không tạo cảm giác lê thê hay cụt lủn và nhịp phim giữ được phong độ khá tốt.</br> Những cảnh hành động, đánh đấm trong Hai Phượng còn khiến người xem cảm thấy cảm phục. Các pha đánh đấm đều được thực hiện rất cụ thể và bài bản, từng động tác, từng vị trí đánh đều rất chuyên nghiệp. Đặc biệt là màn kết liễu nhân vật phản diện của Hai Phượng khiến ai cũng phải vỗ tay và trầm trồ khen ngợi.</br>Đã là phim hành động thì dĩ nhiên mảng hành động, đánh đấm được chăm chút nhiều nhất. Thế nhưng ở Hai Phượng còn có một điểm đáng khen khác, đó chính là màu sắc. Hai màu chủ đạo trong phim là tím và xanh, tạo cảm giác vừa u buồn vừa bí ẩn và nguy hiểm. Mà đẹp nhất chính là những lúc Hai Phượng lang thang, luồn lách trong những con hẻm ở Sài Gòn để tìm manh mối cứu con mình. Ánh sáng, màu sắc, góc quay lúc này mang dáng dấp của văn hoá cyberpunk – thứ văn hoá đặc trưng với hình ảnh những đô thị ảm đạm, tăm tối, những góc phố, con đường, con hẻm sáng rực ánh đèn neon xanh tím, và hình ảnh của những con người chen chúc, bước đi trong hối hả.</br>Hai Phượng lại chứa đựng những chi tiết rất riêng, khiến nó trở thành một bộ phim “nhỏ nhưng có võ”, đạt đến chuẩn quốc tế nhưng vẫn mang dấu ấn của Việt Nam trong đó. Từ chiếc áo bà ba, bối cảnh miền Tây sông nước, những con hẻm tăm tối ở Sài Gòn, cho đến cách chọn đạo cụ để chiến đấu.</br>Là bộ phim hành động cuối cùng của Ngô Thanh Vân trong vai trò đả nữ, Hai Phượng quả thật là một cột mốc đẹp và đáng nhớ trong sự nghiệp của Ngô Thanh Vân nói riêng, và điện ảnh nước nhà nói chung. Hy vọng rằng trong tương lai chúng ta sẽ được thưởng thức thêm nhiều bộ phim xịn như thế này.</br>Chúc mừng ekip và cảm ơn Ngô Thanh Vân vì đã đưa điện ảnh Việt ra thế giới!",
         trailer: "https://www.youtube.com/embed/THXPCF6UHh8",
-        ost: "https://www.youtube.com/embed/Wb0Y55mrgZ8",
+        ost: "https://www.youtube.com/embed/Wb0Y55mrgZ8"
     },
 
-    {//cua lai vo bau
+    {
+        //cua lai vo bau
         title: "Cua lại vợ bầu",
+        nameId: "cua_lai_vo_bau",
         picture: "./img/cualaivobau.jpg",
         status: "Hoàn tất",
         director: "Nhất Trung",
@@ -133,33 +146,37 @@ const content = [
         actor: [
             {
                 realName: "Trấn Thành",
-                actName: "Hồ Trọng Thoại",
+                actName: "Hồ Trọng Thoại"
             },
             {
                 realName: "Nguyễn Anh Tú",
-                actName: "Quý Khánh",
+                actName: "Quý Khánh"
             },
             {
                 realName: "Ninh Dương Lan Ngọc",
-                actName: "Nhã Linh",
+                actName: "Nhã Linh"
             },
             {
                 realName: "Khả Như",
-                actName: "Như",
+                actName: "Như"
             },
             {
                 realName: "Mạc Văn Khoa",
-                actName: "Tuấn",
-            },
+                actName: "Tuấn"
+            }
         ],
-        description: "Chuyện tình của Trọng Thoại và Nhã Linh đang hoàn hảo cho đến khi người yêu cũ của Nhã Linh là Quý Khánh thình lình xuất hiện và gây nên hàng loạt xáo trộn trong trái tim cô gái.",
-        review: "Cua Lại Vợ Bầu không chỉ quanh quẩn ở chuyện tình yêu sến súa mà còn đan xen tình cảm gia đình, cũng như có những tình tiết hài hước nhẹ nhàng giúp cả bộ phim trở nên vui vẻ, tươi sáng đúng với không khí Tết.</br>Được ra mắt vào dịp Tết nhưng Cua Lại Vợ Bầu lại là một bộ phim thiên về tình cảm, có chút sâu lắng. Thoạt nghe thì đây có vẻ là một bước đi mạo hiểm của cả ekip, thế nhưng chính sự dám thử, dám làm đó đã khiến phim trở nên mới mẻ hơn bao giờ hết. Bởi Cua Lại Vợ Bầu không chỉ quanh quẩn ở chuyện tình yêu sến súa mà còn đan xen tình cảm gia đình, cũng như có những tình tiết hài hước nhẹ nhàng giúp cả bộ phim trở nên vui vẻ, tươi sáng đúng với không khí Tết.</br>Bước tiến vượt bậc của phim chính là đưa người xem đi từ cảm xúc này đến cảm xúc khác một cách mượt mà. Với tâm lý Cua Lại Vợ Bầu là một bộ phim Tết, chắc hẳn nhiều khán giả sẽ nghĩ đây là phim hài toàn tập hay thậm chí là hài nhảm như một số bộ phim khác đã từng. Thế nhưng, phim lại hội tụ đủ từ hài hước, tình cảm, sâu lắng đến rơi nước mắt. Những mảng hài được sử dụng hết sức, có chừng mực và đúng nơi đúng chỗ tạo được sự tự nhiên, chân thật cho phim.</br>Mượn những mâu thuẫn của cặp đôi yêu nhau lâu năm, Cua Lại Vợ Bầu mang đến bài học triết lý về tình yêu, về cuộc sống mà bất cứ ai cũng sẽ phải trải qua trong đời. Trong tình yêu không phải cứ yêu thôi là đủ. Dù cho tình yêu ấy có bền lâu như thế nào đi nữa thì cũng sẽ có lúc đi vào lối mòn, đôi khi là nhàm chán. Bên cạnh yêu, con người ta cần một người biết nuôi dưỡng tình yêu và dựng xây mái ấm gia đình từ tình yêu đó.</br>Cua Lại Vợ Bầu là một món ăn vừa miệng trong các món ngon được trình làng vào dịp Tết này. Một bộ phim hài không nhảm, đủ để khiến khán giả bật cười thích thú, một bộ phim tình cảm nhẹ nhàng, chứa đựng những giá trị sâu sắc về gia đình thì chắc chắn sẽ là sự lựa chọn không thể bỏ qua trong những ngày đón xuân rộn ràng.",
+        description:
+            "Chuyện tình của Trọng Thoại và Nhã Linh đang hoàn hảo cho đến khi người yêu cũ của Nhã Linh là Quý Khánh thình lình xuất hiện và gây nên hàng loạt xáo trộn trong trái tim cô gái.",
+        review:
+            "Cua Lại Vợ Bầu không chỉ quanh quẩn ở chuyện tình yêu sến súa mà còn đan xen tình cảm gia đình, cũng như có những tình tiết hài hước nhẹ nhàng giúp cả bộ phim trở nên vui vẻ, tươi sáng đúng với không khí Tết.</br>Được ra mắt vào dịp Tết nhưng Cua Lại Vợ Bầu lại là một bộ phim thiên về tình cảm, có chút sâu lắng. Thoạt nghe thì đây có vẻ là một bước đi mạo hiểm của cả ekip, thế nhưng chính sự dám thử, dám làm đó đã khiến phim trở nên mới mẻ hơn bao giờ hết. Bởi Cua Lại Vợ Bầu không chỉ quanh quẩn ở chuyện tình yêu sến súa mà còn đan xen tình cảm gia đình, cũng như có những tình tiết hài hước nhẹ nhàng giúp cả bộ phim trở nên vui vẻ, tươi sáng đúng với không khí Tết.</br>Bước tiến vượt bậc của phim chính là đưa người xem đi từ cảm xúc này đến cảm xúc khác một cách mượt mà. Với tâm lý Cua Lại Vợ Bầu là một bộ phim Tết, chắc hẳn nhiều khán giả sẽ nghĩ đây là phim hài toàn tập hay thậm chí là hài nhảm như một số bộ phim khác đã từng. Thế nhưng, phim lại hội tụ đủ từ hài hước, tình cảm, sâu lắng đến rơi nước mắt. Những mảng hài được sử dụng hết sức, có chừng mực và đúng nơi đúng chỗ tạo được sự tự nhiên, chân thật cho phim.</br>Mượn những mâu thuẫn của cặp đôi yêu nhau lâu năm, Cua Lại Vợ Bầu mang đến bài học triết lý về tình yêu, về cuộc sống mà bất cứ ai cũng sẽ phải trải qua trong đời. Trong tình yêu không phải cứ yêu thôi là đủ. Dù cho tình yêu ấy có bền lâu như thế nào đi nữa thì cũng sẽ có lúc đi vào lối mòn, đôi khi là nhàm chán. Bên cạnh yêu, con người ta cần một người biết nuôi dưỡng tình yêu và dựng xây mái ấm gia đình từ tình yêu đó.</br>Cua Lại Vợ Bầu là một món ăn vừa miệng trong các món ngon được trình làng vào dịp Tết này. Một bộ phim hài không nhảm, đủ để khiến khán giả bật cười thích thú, một bộ phim tình cảm nhẹ nhàng, chứa đựng những giá trị sâu sắc về gia đình thì chắc chắn sẽ là sự lựa chọn không thể bỏ qua trong những ngày đón xuân rộn ràng.",
         trailer: "https://www.youtube.com/embed/l8vTMxuvz6Y",
-        ost: "https://www.youtube.com/embed/KvvmpqokmUw",
+        ost: "https://www.youtube.com/embed/KvvmpqokmUw"
     },
 
-    {// Hoan doi
+    {
+        // Hoan doi
         title: "Hoán đổi",
+        nameId: "hoan_doi",
         picture: "./img/hoandoi.jpg",
         status: "Hoàn tất",
         director: "Võ Thanh Hòa",
@@ -172,33 +189,37 @@ const content = [
         actor: [
             {
                 realName: "Nhã Phương",
-                actName: "Tiên Tiên",
+                actName: "Tiên Tiên"
             },
             {
                 realName: "Kim Thư",
-                actName: "",
+                actName: ""
             },
             {
                 realName: "La Thành",
-                actName: "",
+                actName: ""
             },
             {
                 realName: "Việt Hương",
-                actName: "bà Hoa",
+                actName: "bà Hoa"
             },
             {
                 realName: "Ngô Kiến Huy",
-                actName: "Minh Thắng",
-            },
+                actName: "Minh Thắng"
+            }
         ],
-        description: "Câu chuyện về sự hoán đổi thân xác giữa 2 người nhân vật: ca sỹ Tiên Tiên và võ sư Mai Ngọc Hoa, chính sự hoán đổi này đã gây ra nhiều tình huống dở khóc, dở cười vì sự hiểu lầm của các nhân vật xung quanh. Ban đầu 2 nhân vật rất bỡ ngỡ vì sự hoán đổi này nên rất ghét nhau nhưng theo thời gian khi ở trong thân xác của đối phương, họ lại vô tình nhận ra được những sai lầm của bản thân. Liệu họ có thể sữa chữa sai lầm và quay trở lại với thân xác của mình không?",
-        review: "Phim có yếu tố gia đình và những tình huống hài hước, rất thích hợp cho cả nhà cùng xem, thế nhưng bộ phim lại ôm đồm quá nhiều thứ, muốn kể quá nhiều câu chuyện mà lại không tập trung vào những thứ tốt nhất mà bộ phim có thể làm qua công cụ kể chuyện.</br>Hoán Đổi là một bộ phim có yếu tố gia đình và những tình huống hài hước, rất thích hợp cho cả nhà cùng xem, thế nhưng bộ phim lại ôm đồm quá nhiều thứ, muốn kể quá nhiều câu chuyện mà lại không tập trung vào những thứ tốt nhất mà bộ phim có thể làm qua công cụ kể chuyện, đó là sự hoán đổi thể xác giữa hai con người.</br>Hai nhân vật bị hoán đổi thân xác với nhau đồng nghĩa với việc người xem sẽ được trải nghiệm cuộc sống trước và sau khi họ bị hoán đổi. Cuộc sống của bà Hoa là cuộc sống của người võ sư có một người bạn lâu năm mà bà thương mến, một gia đình với người con “vô dụng” và cô con dâu với những nỗi lòng và hiềm khích với người mẹ không thể nói ra. Ở chiều ngược lại, Tiên Tiên là một nữ diễn viên trẻ đẹp cho rằng mình đã hết thời và không được người khác trọng dụng, có người quản lý luôn kiểm soát để cô tập trung vào sự nghiệp, một nữ diễn viên khác trong nghề ganh ghét với cô và một người bạn trai cũ còn thương. Đáng lẽ ra bộ phim phải cân bằng được câu chuyện của riêng mỗi nhân vật nhưng do ôm đồm quá nhiều thứ và xuất hiện những tình huống hài không cần thiết khi chúng không đóng góp gì vào nội dung chính, mà người viết cho rằng chỉ có câu chuyện của bà Hoa và gia đình của bà, cụ thể là cô con dâu (Khả Như), thật sự đáng quan tâm.</br>Việc xây dựng các tình tiết của bộ phim khiến người viết thắc mắc rằng đạo diễn muốn làm ra một bộ phim hài thuần tuý hay là một bộ phim kịch tính với những tình huống hài hước, và cụ thể trong bộ phim là những tình huống hài không cần thiết. Nếu như đạo diễn muốn tập trung vào yếu tố gia đình thì có thể bỏ hẳn tuyến truyện của Tiên Tiên, tại sao lại xây dựng một nhân vật là một diễn viên nổi tiếng đang dần bị thay thế bởi một diễn viên khác mà không cho người xem thấy những khó khăn mà cô phải trải qua?</br>Đối tượng tình yêu của cả hai nhân vật chính cũng không có gì quá đặc sắc. Ông Tám (Trấn Thành) là một người bạn lâu năm của bà Hoa, và người xem có thể thấy ông Tám là một người thấu tình đạt lý, sống rất tình nghĩa và cũng rất hài hước. Nhìn vào thì thấy Trấn Thành rất hợp vai nhưng bộ phim lại lạm dụng sự hài hước ở anh quá nhiều, đâm ra lại mất đi cái chất riêng của nhân vật. Chuyện tình của bà Hoa và ông Tám nhiều lúc hơi lố, điển hình là phân cảnh cuối cùng của bộ phim khi ông Tám từ một thầy thuốc trở thành một tay lái mô tô cự phách ngầu lòi, và dĩ nhiên nó đã phá huỷ hình tượng nhân vật này.</br>Tóm lại, có rất rất nhiều điều mà Hoán Đổi đã có thể làm tốt hơn, và như người viết đã nói, bộ phim đã có thể tập trung vào việc phát triển những tình tiết đã được xây dựng ban đầu rất tốt. Dù gì thì nó vẫn mang lại những tiếng cười cho người xem, thế nên các bạn vẫn có thể ra rạp để thưởng thức và tiếp tục ủng hộ, đóng góp ý kiến để các bộ phim Việt trở nên tốt hơn.",
+        description:
+            "Câu chuyện về sự hoán đổi thân xác giữa 2 người nhân vật: ca sỹ Tiên Tiên và võ sư Mai Ngọc Hoa, chính sự hoán đổi này đã gây ra nhiều tình huống dở khóc, dở cười vì sự hiểu lầm của các nhân vật xung quanh. Ban đầu 2 nhân vật rất bỡ ngỡ vì sự hoán đổi này nên rất ghét nhau nhưng theo thời gian khi ở trong thân xác của đối phương, họ lại vô tình nhận ra được những sai lầm của bản thân. Liệu họ có thể sữa chữa sai lầm và quay trở lại với thân xác của mình không?",
+        review:
+            "Phim có yếu tố gia đình và những tình huống hài hước, rất thích hợp cho cả nhà cùng xem, thế nhưng bộ phim lại ôm đồm quá nhiều thứ, muốn kể quá nhiều câu chuyện mà lại không tập trung vào những thứ tốt nhất mà bộ phim có thể làm qua công cụ kể chuyện.</br>Hoán Đổi là một bộ phim có yếu tố gia đình và những tình huống hài hước, rất thích hợp cho cả nhà cùng xem, thế nhưng bộ phim lại ôm đồm quá nhiều thứ, muốn kể quá nhiều câu chuyện mà lại không tập trung vào những thứ tốt nhất mà bộ phim có thể làm qua công cụ kể chuyện, đó là sự hoán đổi thể xác giữa hai con người.</br>Hai nhân vật bị hoán đổi thân xác với nhau đồng nghĩa với việc người xem sẽ được trải nghiệm cuộc sống trước và sau khi họ bị hoán đổi. Cuộc sống của bà Hoa là cuộc sống của người võ sư có một người bạn lâu năm mà bà thương mến, một gia đình với người con “vô dụng” và cô con dâu với những nỗi lòng và hiềm khích với người mẹ không thể nói ra. Ở chiều ngược lại, Tiên Tiên là một nữ diễn viên trẻ đẹp cho rằng mình đã hết thời và không được người khác trọng dụng, có người quản lý luôn kiểm soát để cô tập trung vào sự nghiệp, một nữ diễn viên khác trong nghề ganh ghét với cô và một người bạn trai cũ còn thương. Đáng lẽ ra bộ phim phải cân bằng được câu chuyện của riêng mỗi nhân vật nhưng do ôm đồm quá nhiều thứ và xuất hiện những tình huống hài không cần thiết khi chúng không đóng góp gì vào nội dung chính, mà người viết cho rằng chỉ có câu chuyện của bà Hoa và gia đình của bà, cụ thể là cô con dâu (Khả Như), thật sự đáng quan tâm.</br>Việc xây dựng các tình tiết của bộ phim khiến người viết thắc mắc rằng đạo diễn muốn làm ra một bộ phim hài thuần tuý hay là một bộ phim kịch tính với những tình huống hài hước, và cụ thể trong bộ phim là những tình huống hài không cần thiết. Nếu như đạo diễn muốn tập trung vào yếu tố gia đình thì có thể bỏ hẳn tuyến truyện của Tiên Tiên, tại sao lại xây dựng một nhân vật là một diễn viên nổi tiếng đang dần bị thay thế bởi một diễn viên khác mà không cho người xem thấy những khó khăn mà cô phải trải qua?</br>Đối tượng tình yêu của cả hai nhân vật chính cũng không có gì quá đặc sắc. Ông Tám (Trấn Thành) là một người bạn lâu năm của bà Hoa, và người xem có thể thấy ông Tám là một người thấu tình đạt lý, sống rất tình nghĩa và cũng rất hài hước. Nhìn vào thì thấy Trấn Thành rất hợp vai nhưng bộ phim lại lạm dụng sự hài hước ở anh quá nhiều, đâm ra lại mất đi cái chất riêng của nhân vật. Chuyện tình của bà Hoa và ông Tám nhiều lúc hơi lố, điển hình là phân cảnh cuối cùng của bộ phim khi ông Tám từ một thầy thuốc trở thành một tay lái mô tô cự phách ngầu lòi, và dĩ nhiên nó đã phá huỷ hình tượng nhân vật này.</br>Tóm lại, có rất rất nhiều điều mà Hoán Đổi đã có thể làm tốt hơn, và như người viết đã nói, bộ phim đã có thể tập trung vào việc phát triển những tình tiết đã được xây dựng ban đầu rất tốt. Dù gì thì nó vẫn mang lại những tiếng cười cho người xem, thế nên các bạn vẫn có thể ra rạp để thưởng thức và tiếp tục ủng hộ, đóng góp ý kiến để các bộ phim Việt trở nên tốt hơn.",
         trailer: "https://www.youtube.com/embed/Np5bf7wWN8s",
-        ost: "https://www.youtube.com/embed/Yso7psorYKw",
+        ost: "https://www.youtube.com/embed/Yso7psorYKw"
     },
 
-    {// chi tro li cua anh
+    {
+        // chi tro li cua anh
         title: "Chị trợ lí của anh",
+        nameId: "chi_tro_ly_cua_anh",
         picture: "./img/chitrolicuaanh.jpg",
         status: "Hoàn tất",
         director: "Mira Dương",
@@ -211,33 +232,37 @@ const content = [
         actor: [
             {
                 realName: "Mỹ Tâm",
-                actName: "Khả Doanh",
+                actName: "Khả Doanh"
             },
             {
                 realName: "Mai Tài Phến",
-                actName: "Phúc Nam",
+                actName: "Phúc Nam"
             },
             {
                 realName: "Hữu Châu",
-                actName: "",
+                actName: ""
             },
             {
                 realName: "Công Ninh",
-                actName: "",
+                actName: ""
             },
             {
                 realName: "Tuyết Thu",
-                actName: "",
-            },
+                actName: ""
+            }
         ],
-        description: "Một nữ doanh nhân xinh đẹp, tài năng, đam mê công việc và đầy tham vọng; vì muốn cứu doanh nghiệp của gia đình thoát khỏi âm mưu thâu tóm của các cổ đông, cô phải chấp nhận một điều kiện là đang từ vị trí Phó tổng giám đốc một công ty Sữa chuyển sang làm Trợ lý cho một anh chàng thiếu gia “playboy” trẻ tuổi hơn – là Giám đốc một công ty Cà Phê cùng với nhiệm vụ phải tìm cho anh ta một cô bạn gái.",
-        review: "Chị Trợ Lý Của Anh là một bộ phim có sự đầu tư chỉn chu, cốt truyện đơn giản, đầy giải trí, là tác phẩm mà fan lâu năm của nàng hoạ mi tóc nâu không thể bỏ lỡ.</br>Mở màn đường đua điện ảnh Việt trong năm 2019 là bộ phim Chị Trợ Lý Của Anh do Mỹ Tâm sản xuất, đạo diễn dưới cái tên Mirai Dương và kiêm luôn vai chính. Phim đánh dấu lần đầu Mỹ Tâm chạm ngõ điện ảnh, đồng thời là màn tái xuất của cô ở môn nghệ thuật thứ bảy sau khi vai Linh Đan trong phim truyền hình Cho Một Tình Yêu vào 8 năm trước không được thành công cho lắm, và thật mừng là khả năng diễn xuất của Mỹ Tâm đã cải thiện rất nhiều.</br>Tuy không có chi tiết nào đặc biệt nhưng phim vẫn sẽ là một tác phẩm hài lãng mạn trọn vẹn, đủ để làm một cú xuất phát điểm an toàn đối với một người lấn sân sang lĩnh vực điện ảnh như Mỹ Tâm. Thay vào đó ekip lại chọn đi theo hướng mạo hiểm, thêm vào cú plot twist vô duyên, không ăn nhập gì với cốt truyện. Chắc có lẽ dụng ý của ekip là muốn cái kết này sẽ khó quên hơn, người ta sẽ bàn tán, suy nghĩ nhiều về nó sau khi xem, tạo được hiệu ứng cho bộ phim. Thế nhưng thứ duy nhất còn đọng lại sau khi xem xong cái kết này chỉ là hụt hẫng, rồi cũng sẽ mau chóng quên đi, bởi sau tất cả thì cốt truyện lại chỉ đi theo lối mòn của những video ca nhạc đầy bi kịch hay những phim Hàn Quốc của những thập kỷ trước.</br>Sức hút của Mỹ Tâm ở mảng âm nhạc lớn như thế nào thì ai cũng đã biết. Tuy nhiên, từ sau thất bại của phim truyền hình ca nhạc Cho Một Tình Yêu thì ai cũng e dè. Khi dự án Chị Trợ Lý Của Anh được công bố, không chỉ có khán giả đại chúng nghi ngờ khả năng diễn xuất của cô mà ngay cả những fan trung thành nhất cũng có phần lo sợ. Nhưng thật mừng khi cuối cùng Mỹ Tâm cũng đã biết diễn, tuy chưa phải là xuất sắc nhưng vẫn đủ để gây ấn tượng với khán giả bằng sự duyên dáng  của mình.</br>Thành công lần này là nhờ nhân vật Khả Doanh có tính cách không khác Mỹ Tâm ngoài đời thực là mấy, mạnh mẽ, cá tính, thẳng thắn, đôi lúc tưng tửng nhưng vẫn rất duyên. Đây là một bước đi rất khôn ngoan bởi khả năng diễn xuất của cô còn hạn chế. Nếu như xây dựng một nhân vật hoàn toàn khác chắc có lẽ khán giả đã được chứng kiến một Linh Đan thứ hai trên màn ảnh.</br>Phầm âm nhạc thì chắc có lẽ người viết không cần phải bàn nhiều (Vì đây là phim của Mỹ Tâm mà!). Các bài hát trong phim đều hợp với từng cảnh quay, giàu cảm xúc, vì rõ ràng đây là thế mạnh của ekip. Tuy nhiên một vài cảnh có phần hơi cường điệu, không có được cái chất điện ảnh mà vẫn giống trong MV hơn.</br>Câu trả lời là có đối với những ai tìm kiếm một bộ phim tình cảm hài thuần giải trí và đặc biệt là fan cứng của Mỹ Tâm. Nhưng trước khi đi xem khán giả nên chuẩn bị trước tâm thế để đón nhận một cái kết đầy bất ngờ của bộ phim.",
+        description:
+            "Một nữ doanh nhân xinh đẹp, tài năng, đam mê công việc và đầy tham vọng; vì muốn cứu doanh nghiệp của gia đình thoát khỏi âm mưu thâu tóm của các cổ đông, cô phải chấp nhận một điều kiện là đang từ vị trí Phó tổng giám đốc một công ty Sữa chuyển sang làm Trợ lý cho một anh chàng thiếu gia “playboy” trẻ tuổi hơn – là Giám đốc một công ty Cà Phê cùng với nhiệm vụ phải tìm cho anh ta một cô bạn gái.",
+        review:
+            "Chị Trợ Lý Của Anh là một bộ phim có sự đầu tư chỉn chu, cốt truyện đơn giản, đầy giải trí, là tác phẩm mà fan lâu năm của nàng hoạ mi tóc nâu không thể bỏ lỡ.</br>Mở màn đường đua điện ảnh Việt trong năm 2019 là bộ phim Chị Trợ Lý Của Anh do Mỹ Tâm sản xuất, đạo diễn dưới cái tên Mirai Dương và kiêm luôn vai chính. Phim đánh dấu lần đầu Mỹ Tâm chạm ngõ điện ảnh, đồng thời là màn tái xuất của cô ở môn nghệ thuật thứ bảy sau khi vai Linh Đan trong phim truyền hình Cho Một Tình Yêu vào 8 năm trước không được thành công cho lắm, và thật mừng là khả năng diễn xuất của Mỹ Tâm đã cải thiện rất nhiều.</br>Tuy không có chi tiết nào đặc biệt nhưng phim vẫn sẽ là một tác phẩm hài lãng mạn trọn vẹn, đủ để làm một cú xuất phát điểm an toàn đối với một người lấn sân sang lĩnh vực điện ảnh như Mỹ Tâm. Thay vào đó ekip lại chọn đi theo hướng mạo hiểm, thêm vào cú plot twist vô duyên, không ăn nhập gì với cốt truyện. Chắc có lẽ dụng ý của ekip là muốn cái kết này sẽ khó quên hơn, người ta sẽ bàn tán, suy nghĩ nhiều về nó sau khi xem, tạo được hiệu ứng cho bộ phim. Thế nhưng thứ duy nhất còn đọng lại sau khi xem xong cái kết này chỉ là hụt hẫng, rồi cũng sẽ mau chóng quên đi, bởi sau tất cả thì cốt truyện lại chỉ đi theo lối mòn của những video ca nhạc đầy bi kịch hay những phim Hàn Quốc của những thập kỷ trước.</br>Sức hút của Mỹ Tâm ở mảng âm nhạc lớn như thế nào thì ai cũng đã biết. Tuy nhiên, từ sau thất bại của phim truyền hình ca nhạc Cho Một Tình Yêu thì ai cũng e dè. Khi dự án Chị Trợ Lý Của Anh được công bố, không chỉ có khán giả đại chúng nghi ngờ khả năng diễn xuất của cô mà ngay cả những fan trung thành nhất cũng có phần lo sợ. Nhưng thật mừng khi cuối cùng Mỹ Tâm cũng đã biết diễn, tuy chưa phải là xuất sắc nhưng vẫn đủ để gây ấn tượng với khán giả bằng sự duyên dáng  của mình.</br>Thành công lần này là nhờ nhân vật Khả Doanh có tính cách không khác Mỹ Tâm ngoài đời thực là mấy, mạnh mẽ, cá tính, thẳng thắn, đôi lúc tưng tửng nhưng vẫn rất duyên. Đây là một bước đi rất khôn ngoan bởi khả năng diễn xuất của cô còn hạn chế. Nếu như xây dựng một nhân vật hoàn toàn khác chắc có lẽ khán giả đã được chứng kiến một Linh Đan thứ hai trên màn ảnh.</br>Phầm âm nhạc thì chắc có lẽ người viết không cần phải bàn nhiều (Vì đây là phim của Mỹ Tâm mà!). Các bài hát trong phim đều hợp với từng cảnh quay, giàu cảm xúc, vì rõ ràng đây là thế mạnh của ekip. Tuy nhiên một vài cảnh có phần hơi cường điệu, không có được cái chất điện ảnh mà vẫn giống trong MV hơn.</br>Câu trả lời là có đối với những ai tìm kiếm một bộ phim tình cảm hài thuần giải trí và đặc biệt là fan cứng của Mỹ Tâm. Nhưng trước khi đi xem khán giả nên chuẩn bị trước tâm thế để đón nhận một cái kết đầy bất ngờ của bộ phim.",
         trailer: "https://www.youtube.com/embed/fUe1Sul_8eo",
-        ost: "https://www.youtube.com/embed/7K-xDJVtYPw",
+        ost: "https://www.youtube.com/embed/7K-xDJVtYPw"
     },
 
-    {//lat mat: nha co khach
+    {
+        //lat mat: nha co khach
         title: "Lật mặt: Nhà có khách",
+        nameId: "lat_mat",
         picture: "./img/latmatnck.jpg",
         status: "Hoàn tất",
         director: "Lý Hải",
@@ -250,1232 +275,238 @@ const content = [
         actor: [
             {
                 realName: "Katleen Phan Võ",
-                actName: "Vy",
+                actName: "Vy"
             },
             {
                 realName: "Jay Quân",
-                actName: "Huân",
+                actName: "Huân"
             },
             {
                 realName: "Huy Khánh",
-                actName: "Thông",
+                actName: "Thông"
             },
             {
                 realName: "Hoàng Mèo",
-                actName: "Bình",
+                actName: "Bình"
             },
             {
                 realName: "Mạc Văn Khoa",
-                actName: "Phương",
-            },
+                actName: "Phương"
+            }
         ],
-        description: "Một lần Vy cùng Huân và nhóm bạn thân gồm Thông, Phương, Bình quyết định làm 1 chuyến trở về thăm mẹ và em trai. Tuy nhiên, trong thời gian thăm nhà, lần lượt từng người đều gặp những chuyện rất kỳ bí lạ lùng. Tất cả những người xung quanh đều ám chỉ nhà Vy có ma nhưng không ai dám nói ra và chỉ dám dùng từ KHÁCH theo thông lệ dân địa phương ở đây. Sự việc càng diễn tiến đáng sợ hơn khiến cơn tò mò lên đến đỉnh điểm, cả nhóm quyết định tìm cho ra sự thật.",
-        review: "Lật Mặt 4: Nhà Có Khách hoàn toàn thành công trong việc mang lại tiếng cười cho khán giả.  Mặc cho tháng 4 là thời điểm công phá của các bộ phim bom tấn Hollywood, ê-kíp của Lý Hải – Minh Hà vẫn mạnh dạn ra mắt bộ phim kinh dị hài Lật Mặt 4: Nhà Có Khách với sự tham gia của 2 gương mặt mới toanh với màn ảnh rộng là Katleen Phan Võ và Jay Quân cùng những diễn viên tài năng khác như Huy Khánh, Mạc Văn Khoa, Hoàng Mèo và Lý Hải.</br>Lời khen mà người viết dành cho Lật Mặt 4: Nhà Có Khách là yếu tố giải trí của phim. Chuyến đi về nơi thâm sơn cùng cốc của nhóm bạn trong phim đã gợi cho khán giả đến những tình huống dở khóc dở cười khi đi du lịch cùng bạn bè. Chẳng cần phải cố chèn mấy câu thoại hài nhảm, Lật Mặt 4: Nhà Có Khách dễ dàng làm khán giả bật cười cùng hành trình này. Đây là một điều mà người viết đánh giá cao, vì hầu như phim Việt mà có yếu tố hài đều bị rơi vào tình trạng hài nhảm hoặc cố lấy tiếng cười một cách gượng ép.</br>Cái hài duyên dáng của phim đến từ sự tung hứng ăn ý của ba người bạn do Huy Khánh, Mạc Văn Khoa và Hoàng Mèo thể hiện. Vốn có kinh nghiệm diễn xuất từ trước, bộ ba diễn viên dễ dàng bắt được cảm xúc của khán giả bằng biểu cảm và lời thoại, riêng Mạc Văn Khoa, chỉ cần anh cất tông giọng lảnh lót thôi khán giả cũng muốn bật cười rồi. Cũng chính vì thế mà bộ ba này có phần lấn át hai diễn viên chính là Katleen Phan Võ và Jay Quân. Về phần Katleen, tuy đóng vai chính trong một bộ phim điện ảnh đầu tay nhưng cô nàng cũng gần làm tròn vai, trong tương lai có thể tiến bộ nhiều hơn nữa.</br>Khác với những bộ phim trước, lần này Lật Mặt 4: Nhà Có Khách đã thử sức với thể loại kinh dị ma ám. Phim làm khá tốt ở những phân cảnh gây sức ép tâm lý, khiến người xem hồi hộp và dễ giật mình. Tuy nhiên, một số cảnh hù dọa vẫn chưa đủ ép-phê vì hiệu ứng âm thanh vẫn còn nhẹ và tạo hình của khách chưa đủ đáng sợ.</br>Lật Mặt 4: Nhà Có Khách có một cốt truyện đơn giản, dễ hiểu nhưng không thể tránh được những hạt sạn đáng tiếc. Tổng thể thì phim cũng truyền tải được một thông điệp cảm động, diễn biến trong một thời lượng hợp lý nhưng cách phim đặt vấn đề và giải quyết vẫn chưa thật sự thuyết phục được người viết, tạo cảm giác lấn cấn không đáng có sau khi xem xong. Mong rằng trong các bộ phim tiếp theo, Lý Hải sẽ chăm chút nhiều hơn cho kịch bản chỉn chu không kém gì bối cảnh, giúp cảm xúc người xem được trọn vẹn hơn.</br>Nhìn chung, Lật Mặt 4: Nhà Có Khách là một bộ phim điện ảnh thuần giải trí và hợp gu với thị hiếu của khán giả đại chúng Việt Nam.",
+        description:
+            "Một lần Vy cùng Huân và nhóm bạn thân gồm Thông, Phương, Bình quyết định làm 1 chuyến trở về thăm mẹ và em trai. Tuy nhiên, trong thời gian thăm nhà, lần lượt từng người đều gặp những chuyện rất kỳ bí lạ lùng. Tất cả những người xung quanh đều ám chỉ nhà Vy có ma nhưng không ai dám nói ra và chỉ dám dùng từ KHÁCH theo thông lệ dân địa phương ở đây. Sự việc càng diễn tiến đáng sợ hơn khiến cơn tò mò lên đến đỉnh điểm, cả nhóm quyết định tìm cho ra sự thật.",
+        review:
+            "Lật Mặt 4: Nhà Có Khách hoàn toàn thành công trong việc mang lại tiếng cười cho khán giả.  Mặc cho tháng 4 là thời điểm công phá của các bộ phim bom tấn Hollywood, ê-kíp của Lý Hải – Minh Hà vẫn mạnh dạn ra mắt bộ phim kinh dị hài Lật Mặt 4: Nhà Có Khách với sự tham gia của 2 gương mặt mới toanh với màn ảnh rộng là Katleen Phan Võ và Jay Quân cùng những diễn viên tài năng khác như Huy Khánh, Mạc Văn Khoa, Hoàng Mèo và Lý Hải.</br>Lời khen mà người viết dành cho Lật Mặt 4: Nhà Có Khách là yếu tố giải trí của phim. Chuyến đi về nơi thâm sơn cùng cốc của nhóm bạn trong phim đã gợi cho khán giả đến những tình huống dở khóc dở cười khi đi du lịch cùng bạn bè. Chẳng cần phải cố chèn mấy câu thoại hài nhảm, Lật Mặt 4: Nhà Có Khách dễ dàng làm khán giả bật cười cùng hành trình này. Đây là một điều mà người viết đánh giá cao, vì hầu như phim Việt mà có yếu tố hài đều bị rơi vào tình trạng hài nhảm hoặc cố lấy tiếng cười một cách gượng ép.</br>Cái hài duyên dáng của phim đến từ sự tung hứng ăn ý của ba người bạn do Huy Khánh, Mạc Văn Khoa và Hoàng Mèo thể hiện. Vốn có kinh nghiệm diễn xuất từ trước, bộ ba diễn viên dễ dàng bắt được cảm xúc của khán giả bằng biểu cảm và lời thoại, riêng Mạc Văn Khoa, chỉ cần anh cất tông giọng lảnh lót thôi khán giả cũng muốn bật cười rồi. Cũng chính vì thế mà bộ ba này có phần lấn át hai diễn viên chính là Katleen Phan Võ và Jay Quân. Về phần Katleen, tuy đóng vai chính trong một bộ phim điện ảnh đầu tay nhưng cô nàng cũng gần làm tròn vai, trong tương lai có thể tiến bộ nhiều hơn nữa.</br>Khác với những bộ phim trước, lần này Lật Mặt 4: Nhà Có Khách đã thử sức với thể loại kinh dị ma ám. Phim làm khá tốt ở những phân cảnh gây sức ép tâm lý, khiến người xem hồi hộp và dễ giật mình. Tuy nhiên, một số cảnh hù dọa vẫn chưa đủ ép-phê vì hiệu ứng âm thanh vẫn còn nhẹ và tạo hình của khách chưa đủ đáng sợ.</br>Lật Mặt 4: Nhà Có Khách có một cốt truyện đơn giản, dễ hiểu nhưng không thể tránh được những hạt sạn đáng tiếc. Tổng thể thì phim cũng truyền tải được một thông điệp cảm động, diễn biến trong một thời lượng hợp lý nhưng cách phim đặt vấn đề và giải quyết vẫn chưa thật sự thuyết phục được người viết, tạo cảm giác lấn cấn không đáng có sau khi xem xong. Mong rằng trong các bộ phim tiếp theo, Lý Hải sẽ chăm chút nhiều hơn cho kịch bản chỉn chu không kém gì bối cảnh, giúp cảm xúc người xem được trọn vẹn hơn.</br>Nhìn chung, Lật Mặt 4: Nhà Có Khách là một bộ phim điện ảnh thuần giải trí và hợp gu với thị hiếu của khán giả đại chúng Việt Nam.",
         trailer: "https://www.youtube.com/embed/4ynRaBbJYRA",
-        ost: "https://www.youtube.com/embed/XGAmUNcjkyI",
-    },
-
-    {//
-        title: "Vợ ba",
-        picture: "./img/vo3.png",
-        status: "Hoàn tất",
-        director: "Ash Mayfair",
-        rate: "60%",
-        debut: "17/05/2019",
-        year: "2019",
-        time: "94 phút",
-        genre: "Kịch",
-        limitAge: "18+",
-        actor: [
-            {
-                realName: "Nguyễn Phương Trà My",
-                actName: "Mây",
-            },
-            {
-                realName: "Tran Nu Yên-Khê",
-                actName: "",
-            },
-            {
-                realName: "Maya Mai Thu Hương",
-                actName: "",
-            },
-            {
-                realName: "Nguyễn Như Quỳnh",
-                actName: "",
-            },
-            {
-                realName: "Long Lê Vũ",
-                actName: "",
-            },
-        ],
-        description: "Vợ Ba lấy bối cảnh vùng thôn quê Việt Nam cuối thế kỷ 19. Phim xoay quanh câu chuyện về cô gái tên Mây được gả làm vợ ba cho một gia đình giàu có. Tưởng như bắt đầu một cuộc sống sung túc, đầy đủ, cô gái trẻ không ngờ mình bị lôi vào một cuộc tranh đấu ngầm trong gia đình mới với vợ cả và vợ hai để có được vị trí quan trọng ở nhà chồng.",
-        review: "Vợ Ba không chỉ đơn thuần là một tác phẩm điện ảnh, mà nó như thể là một lời tâm tình của Ash Mayfair dành riêng cho phái nữ.</br>Mây (Nguyễn Phương Trà My), trẻ đẹp và trong veo như giọt sương trên lá buổi sớm. Chỉ mới 14 tuổi đã phải về làm vợ ba cho một địa chủ giàu có mà mình chưa bao giờ gặp mặt. Phim mở đầu một cách chậm rãi, như cái cách mà con thuyền đưa Mây băng qua hang động rồi đến nhà chồng. Không hề có một lời thoại nào để giới thiệu nhân vật hay bối cảnh. Mọi thứ chỉ diễn ra một cách tự nhiên và người xem như bị đưa vào một câu chuyện nửa hư nửa thực.</br>Đám cưới diễn ra một cách êm đềm, Mây nhanh chóng phải thực hiện bổn phận của người vợ vào đêm tân hôn. Thế nhưng, quá trình Mây trở thành phụ nữ được thực hiện một cách cẩn thận và tinh tế, đẹp và gợi cảm nhưng không gợi dục. Những chi tiết như Hùng (Lê Vũ Long) nuốt trứng sống từ rốn Mây, tấm vải thấm máu được treo lên vào sáng hôm sau, hay đoạn hội thoại về cách làm sao đạt được khoái cảm giữa ba người vợ, đều được khắc hoạ một cách tự nhiên, không hề dung tục. Đây đều là những vấn đề rất phụ nữ, những vấn đề mà nhiều người quan tâm, nhưng không phải nhà làm phim nào cũng đủ tinh tế và am hiểu chúng để đưa chúng lên màn ảnh như Ash Mayfair.</br>Mặc dù cốt truyện xoay quanh yếu tố đa thê, nhưng Vợ Ba không phải là câu chuyện tranh giành quyền lực gay gắt như trong các phim cung đấu. Quả thực phim cũng có một chút tính tranh giành quyền lực giữa những người vợ, bởi ai mà không muốn có được vị thế cao hơn, được chồng yêu thương nhiều hơn chứ? Nhưng cái mà Ash Mayfair muốn truyền tải không phải là sự ích kỉ, ghen tuông giữa những người phụ nữ, mà là tâm lý, thân phận và bản năng làm mẹ của họ. Cho dù là vợ thứ mấy thì họ cũng đều yêu thương những đứa trẻ, không quan tâm đó là trai hay gái.</br>Tính nữ quyền trong Vợ Ba được thể hiện một cách nhẹ nhàng, tinh tế và đầy nữ tính. Không cần phải là những người phụ nữ thật mạnh mẽ, có tính cách gai góc, làm được những chuyện mà đàn ông hay làm, hay hợp sức chống lại phái mạnh. Mà tính nữ quyền trong phim được thể hiện thông qua những thứ mà phụ nữ vốn có và cách mà họ thấu hiểu, bao bọc nhau. Không chỉ có Mây, Hà và Xuân, mà trong cuộc đời vẫn còn đâu đó những người phụ nữ hay các cô gái trẻ bị bỏ rơi, bạc đãi, buộc phải đấu đá lẫn nhau, phải trải qua những tổn thương tâm lý và phải bó mình trong những chuẩn mực của xã hội và số phận, như những con tằm bị đun sống ở trong kén trước khi có thể thoát xác thành ngài.</br>Tính nữ quyền trong Vợ Ba được thể hiện một cách nhẹ nhàng, tinh tế và đầy nữ tính. Không cần phải là những người phụ nữ thật mạnh mẽ, có tính cách gai góc, làm được những chuyện mà đàn ông hay làm, hay hợp sức chống lại phái mạnh. Mà tính nữ quyền trong phim được thể hiện thông qua những thứ mà phụ nữ vốn có và cách mà họ thấu hiểu, bao bọc nhau. Không chỉ có Mây, Hà và Xuân, mà trong cuộc đời vẫn còn đâu đó những người phụ nữ hay các cô gái trẻ bị bỏ rơi, bạc đãi, buộc phải đấu đá lẫn nhau, phải trải qua những tổn thương tâm lý và phải bó mình trong những chuẩn mực của xã hội và số phận, như những con tằm bị đun sống ở trong kén trước khi có thể thoát xác thành ngài.",
-        trailer: "https://www.youtube.com/embed/e3Gr7r7yWU8",
-        ost: "https://www.youtube.com/embed/NwyWtggZxTs",
-    },
-
-    {//nguoi bat tu
-        title: "Người bất tử",
-        picture: "./img/ng_bat_tu.jpg",
-        status: "Hoàn tất",
-        director: "Victor Vũ",
-        rate: "70%",
-        debut: "26/10/2018",
-        year: "2018",
-        time: "130 phút",
-        genre: "Kịch, giật gân",
-        limitAge: "18+",
-        actor: [
-            {
-                realName: "Quách Ngọc Ngoan",
-                actName: "Hùng",
-            },
-            {
-                realName: "Ngọc Diệp",
-                actName: "An",
-            },
-            {
-                realName: "Jun Vũ",
-                actName: "Liên",
-            },
-            {
-                realName: "Thanh Tú",
-                actName: "Duyên",
-            },
-            {
-                realName: "Cường Seven",
-                actName: "Lộc",
-            },
-        ],
-        description: "Câu chuyện về cuộc đời thăng trầm với đầy rẫy những tham vọng và sự thù hận của Hùng – người đàn ông đã sống qua ba thế kỉ.",
-        review: "Mặc dù có cái kết chưa được trọn vẹn cho lắm, có thể khiến nhiều khán giả hụt hẫng và “hoang mang”, nhưng đây vẫn là một trong những tác phẩm có tầm và có tâm nhất của nền điện ảnh nước nhà.</br>Là một trong những đạo diễn tài năng nhất của Việt Nam với nhiều bộ phim ấn tượng như Oan Hồn, Thiên Mệnh Anh Hùng, Scandal, Quả Tim Máu… Victor Vũ luôn khiến khán giả phải trông ngóng mỗi khi có phim mới được ra mắt. Chỉ cần nghe đến “thương hiệu” Victor Vũ, người hâm mộ đều muốn được thưởng thức tác phẩm mới của anh bất chấp thể loại và nội dung.</brNgười Bất Tử - bộ phim mới nhất của Victor Vũ cũng không phải là ngoại lệ. Và không phụ lòng của khán giả, không hổ danh là bộ phim được Victor Vũ dành nhiều tâm huyết nhất, Người Bất Tử đã mang đến cho khán giả một tác phẩm điện ảnh được đầu tư công phu, cốt truyện mới lạ và chất ma mị, rùng rợn đặc trưng của vị đạo diễn tài năng. Mặc dù có cái kết chưa được trọn vẹn cho lắm, có thể khiến nhiều khán giả hụt hẫng và “hoang mang”, nhưng đây vẫn là một trong những tác phẩm có tầm và có tâm nhất của nền điện ảnh nước nhà.</br>Với kịch bản mới lạ, đậm chất tâm linh và những cú twist đặc sắc, có thể nói Người Bất Tử đã thổi một làn gió mới vào nền điện ảnh Việt giữa hàng loạt các phim remake. Xem phim, khán giả như được bước vào Việt Nam đầu thế kỷ 20 thực sự, chứ không chỉ là ngắm nhìn qua màn ảnh khi các bối cảnh, phục trang, nội thất được đầu tư công phu và tỉ mỉ. Những bữa tiệc xa hoa lộng lẫy, đồn điền của các địa chủ giàu có lúc bấy giờ, phiên chợ Bắc Bộ thập niên 40, góc phố với quán cà phê đậm chất Pháp, căn biệt thự của gia đình Hùng... tất cả đều mang hơi thở của một thời kì giao thoa tiếp biến văn hoá đặc sắc.</br>Cuộc đời của Hùng kéo dài tới 3 thế kỷ, chính vì thế bối cảnh không chỉ gói gọn ở một địa điểm mà trải dài khắp mọi nơi khi nhân vật này đi lang bạt. Khán giả sẽ được chiêm ngưỡng những khung cảnh vô cùng hùng vĩ và hoang sơ. Quả thật không ngoa khi nói rằng Người Bất Tử là một trong những phim Việt có phần hình ảnh đẹp và nghệ thuật nhất từ trước đến nay.</br>Tài năng của Victor Vũ không chỉ được thể hiện qua những điều mà người viết đã nói ở trên, mà còn được thể hiện rõ qua cách chọn diễn viên cho từng nhân vật, đặc biệt là nam chính do Quách Ngọc Ngoan đảm nhận. Không thể phủ nhận rằng anh là lựa chọn đúng đắn và sáng giá nhất cho vai diễn này, khi thể hiện được mọi sắc thái của Hùng từ hạnh phúc, căm phẫn, thù hận, ăn năn nhờ đôi mắt vô cùng có hồn, ẩn chứa nhiều cảm xúc. Hùng là một nhân vật phức tạp, anh ta có thể ân cần, trìu mến, dịu dàng khi ở bên người mình yêu, nhưng vẫn có thể cực kì tàn độc đối với những ai đã hại mình. Hùng là một người đáng trách khi quá tham vọng và luôn nuôi dưỡng thù hận, nhưng anh cũng là một con người đáng thương khi mất hết tất cả và phải làm nô lệ cho chính số phận mình. Quách Ngọc Ngoan đã có một màn hoá thân cực kì xuất sắc và thể hiện được tất cả những cảm xúc đầy mâu thuẫn của nhân vật này.</br>Các diễn viên khác như Đinh Ngọc Diệp, Jun Vũ, Thanh Tú đều diễn rất tròn vai. Thanh Tú tuy là gương mặt mới của màn ảnh Việt, trước đây phần lớn chỉ đóng vai phụ và chưa có nhiều vai diễn ấn tượng, nhưng trong Người Bất Tử cô đã thực sự thể hiện được tài năng của mình, hoá thân thành cô gái miền biển tên Duyên mộc mạc, chân thành nhưng lại mang nét quyến rũ lạ thường. Jun Vũ thì mang vẻ đẹp đầy gợi tình, khiến người khác muốn giết người (theo đúng nghĩa đen), vẻ đẹp của một ả đào mỏng manh, yêu kiều và quý phái. Cô cũng đã diễn rất tròn vai, đặc biệt là những đoạn kinh dị, rất xuất sắc.</br>Người Bất Tử vẫn là tác phẩm Việt rất đáng xem, đặc biệt là đối với những ai là fan của Victor Vũ thì không thể bỏ qua.  Phim thể hiện sự đầu tư công phu, tỉ mỉ không chỉ của riêng Victor Vũ mà của cả một ekip chuyên nghiệp từ quay phim, kĩ xảo, xây dựng bối cảnh, phục trang cho đến phần âm nhạc. Bộ phim đã cho thấy sự trưởng thành rất nhiều trong cách làm phim của Victor Vũ nói riêng và điện ảnh Việt nói chung. Hy vọng rằng trong tương lai anh sẽ còn mang đến nhiều tác phẩm điện ảnh chất lượng khác để củng cố niềm tin của khán giả Việt đối với điện ảnh nước nhà, và truyền cảm hứng cho những nhà làm phim hiện tại và những thế hệ sau này.",
-        trailer: "https://www.youtube.com/embed/6VEVPtFDN_U",
-        ost: "https://www.youtube.com/embed/meqLjGa_WC8",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-    {
-        title: "",
-        picture: "./img/",
-        status: "Hoàn tất",
-        director: "",
-        rate: "",
-        debut: "",
-        year: "",
-        time: "",
-        genre: "",
-        limitAge: "",
-        actor: [
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-            {
-                realName: "",
-                actName: "",
-            },
-        ],
-        description: "",
-        review: "",
-        trailer: "https://www.youtube.com/embed/",
-        ost: "https://www.youtube.com/embed/",
-    },
-
-
+        ost: "https://www.youtube.com/embed/XGAmUNcjkyI"
+    }
 ];
 
+var getHTML = document.getElementById("dataFilm");
+var disableHTML = document.getElementById("showData");
 
-var realName, actName;
+function idElement(id) {
+    content.map(item => {
+        if (id === item.nameId) {
+            const actorList = item.actor.map(act => {
+                return act;
+            });
+            console.log(actorList);
+            disableHTML.style.display = "none";
+            const html = `
+            <h1 class="movie-title">${item.title}</h1>
+            <div class="webback">
+            <div class="movie-info">
+                <div class="display-row">
+                    <img class="film-poster" src="img/2phuong.jpg" alt="poster">
+                    <div class="display-column">
+                        <div class="movie-status">
+                            Trạng thái: <span>${item.status}</span>
+                            <br>Yêu thích: <span>${item.rate}%</span>
+                            <br>Đạo diễn: <span>${item.director}</span>
+                            <br>Năm: <span>${item.year}</span>
+                            <br>Ngày ra rạp: <span>${item.debut}</span>
+                            <br>Thời lượng: <span>${item.time}</span>
+                            <br>Thể loại: <span>${item.genre}</span>
+                            <br>Giới hạn tuổi: <span>${item.limitAge}</span>
+                            <br>Diễn viên chính: <span id="red">
+                                ${actorList.map(act => {
+                                    return `<a>${act.realName}</a> `;
+                                })}
+                            </span>
+                            <br>Giới thiệu phim: <span id="yellow">${
+                                item.description
+                            }</span>
+                        </div>
 
-const elementFilm = document.getElementById("data-film")
+                    </div>
 
-var act1, act2, act3, act4, act5
-var indexAct = 0
-content.map(item => {
-
-    act1 = item.actor[0]
-    act2 = item.actor[1]
-    act3 = item.actor[2]
-    act4 = item.actor[3]
-    act5 = item.actor[4]
-
-
-    const html = `<div class="webback">
-    <div class="movie-title" id="data-film">${item.title}</div>
-    <div class="movie-info">
-        <div class="display-row">
-            <img class="film-poster" src=${item.picture} alt="poster">
-            <div class="display-column">
-                <div class="movie-status">
-                    Trạng thái: <span>${item.status}</span>
-                    <br>Yêu thích: <span>${item.rate}</span>
-                    <br>Đạo diễn: <span>${item.director}</span>
-                    <br>Năm: <span>${item.year}</span>
-                    <br>Ngày ra rạp: <span>${item.debut}</span>
-                    <br>Thời lượng: <span>${item.time}</span>
-                    <br>Thể loại: <span>${item.genre}</span>
-                    <br>Giới hạn tuổi: <span>${item.limitAge}</span>
-                    <br>Diễn viên chính: <span id="red">
-                        <a data-toggle="tooltip" title="${act1.actName}">${act1.realName}</a>,
-                        <a data-toggle="tooltip" title="${act2.actName}">${act2.realName}</a>,
-                        <a data-toggle="tooltip" title="${act3.actName}">${act3.realName}</a>,
-                        <a data-toggle="tooltip" title="${act4.actName}">${act4.realName}</a>,
-                        <a data-toggle="tooltip" title="${act5.actName}">${act5.realName}</a>
-                    </span>
-                    <br>Giới thiệu phim: <span id="yellow">${item.description}</span>
                 </div>
-
+                <div class="des-box">
+                    <div class="description-title"><br>[GÓC REVIEW]</div>
+                    <div class="description">
+                        <div>${item.review}</div>
+                    </div>
+                </div>
+                <div class="film-video">
+                <p>Official Trailer</p>
+                <iframe class="trailer" width="1080" height="604.7" src="${
+                    item.trailer
+                }"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>Official OST</p>
+                <iframe class="trailer" width="1080" height="604.7" src="${
+                    item.ost
+                }"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
             </div>
+        </div>`;
+            getHTML.insertAdjacentHTML("beforeend", html);
+        }
+    });
+}
 
-        </div>
-        <div class="des-box">
-            <div class="description-title"><br>[GÓC REVIEW]</div>
-            <div class="description">
-                <div>
-                    ${item.review}
-                </div><br>
+console.log(idElement);
 
+function handleSearch() {
+    var searchValue = document.getElementById("search").value;
+
+    content.map(item => {
+        if (searchValue === item.title.toLowerCase()) {
+            const actorList = item.actor.map(act => {
+                return act;
+            });
+            console.log(actorList);
+            disableHTML.style.display = "none";
+            const html = `
+            <div class="movie-title">${item.title}</div>
+            <div class="webback">
+            <div class="movie-info">
+                <div class="display-row">
+                    <img class="film-poster" src="img/2phuong.jpg" alt="poster">
+                    <div class="display-column">
+                        <div class="movie-status">
+                            Trạng thái: <span>${item.status}</span>
+                            <br>Yêu thích: <span>${item.rate}%</span>
+                            <br>Đạo diễn: <span>${item.director}</span>
+                            <br>Năm: <span>${item.year}</span>
+                            <br>Ngày ra rạp: <span>${item.debut}</span>
+                            <br>Thời lượng: <span>${item.time}</span>
+                            <br>Thể loại: <span>${item.genre}</span>
+                            <br>Giới hạn tuổi: <span>${item.limitAge}</span>
+                            <br>Diễn viên chính: <span id="red">
+                                ${actorList.map(act => {
+                                    return `<a>${act.realName}</a> `;
+                                })}
+                            </span>
+                            <br>Giới thiệu phim: <span id="yellow">${
+                                item.description
+                            }</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="des-box">
+                    <div class="description-title"><br>[GÓC REVIEW]</div>
+                    <div class="description">
+                        <div>${item.review}</div>
+                    </div>
+                </div>
+                <div class="film-video">
+                <p>Official Trailer</p>
+                <iframe class="trailer" width="1080" height="604.7" src="${
+                    item.trailer
+                }"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>Official OST</p>
+                <iframe class="trailer" width="1080" height="604.7" src="${
+                    item.ost
+                }"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
             </div>
-        </div>
-        <div class="film-video">
-            <p>Official Trailer</p>
-            <iframe class="trailer" width="1080" height="604.7" src=${item.trailer}
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <p>Official OST</p>
-            <iframe class="trailer" width="1080" height="604.7" src=${item.ost}
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-    </div>`
-    elementFilm.insertAdjacentHTML("beforeend", html)
-})
+        </div>`;
+            getHTML.insertAdjacentHTML("beforeend", html);
+        }
+    });
+}
 
+function myFunc() {
+    document.getElementById("searchBtn").onclick = function() {
+        location.href = "www.youtube.com";
+        console.log("redirect to");
+    };
+}
 
+// var realName, actName;
+
+// const elementFilm = document.getElementById("data-film");
+
+// var act1, act2, act3, act4, act5;
+// var indexAct = 0;
+// content.map(item => {
+//     act1 = item.actor[0];
+//     act2 = item.actor[1];
+//     act3 = item.actor[2];
+//     act4 = item.actor[3];
+//     act5 = item.actor[4];
+
+//     const html = `<div class="webback">
+//     <div class="movie-title" id="data-film">${item.title}</div>
+//     <div class="movie-info">
+//         <div class="display-row">
+//             <img class="film-poster" src=${item.picture} alt="poster">
+//             <div class="display-column">
+//                 <div class="movie-status">
+//                     Trạng thái: <span>${item.status}</span>
+//                     <br>Yêu thích: <span>${item.rate}</span>
+//                     <br>Đạo diễn: <span>${item.director}</span>
+//                     <br>Năm: <span>${item.year}</span>
+//                     <br>Ngày ra rạp: <span>${item.debut}</span>
+//                     <br>Thời lượng: <span>${item.time}</span>
+//                     <br>Thể loại: <span>${item.genre}</span>
+//                     <br>Giới hạn tuổi: <span>${item.limitAge}</span>
+//                     <br>Diễn viên chính: <span id="red">
+//                         <a data-toggle="tooltip" title="${act1.actName}">${act1.realName}</a>,
+//                         <a data-toggle="tooltip" title="${act2.actName}">${act2.realName}</a>,
+//                         <a data-toggle="tooltip" title="${act3.actName}">${act3.realName}</a>,
+//                         <a data-toggle="tooltip" title="${act4.actName}">${act4.realName}</a>,
+//                         <a data-toggle="tooltip" title="${act5.actName}">${act5.realName}</a>
+//                     </span>
+//                     <br>Giới thiệu phim: <span id="yellow">${item.description}</span>
+//                 </div>
+
+//             </div>
+
+//         </div>
+//         <div class="des-box">
+//             <div class="description-title"><br>[GÓC REVIEW]</div>
+//             <div class="description">
+//                 <div>
+//                     ${item.review}
+//                 </div><br>
+
+//             </div>
+//         </div>
+//         <div class="film-video">
+//             <p>Official Trailer</p>
+//             <iframe class="trailer" width="1080" height="604.7" src=${item.trailer}
+//                 frameborder="0"
+//                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+//                 allowfullscreen></iframe>
+//             <p>Official OST</p>
+//             <iframe class="trailer" width="1080" height="604.7" src=${item.ost}
+//                 frameborder="0"
+//                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+//                 allowfullscreen></iframe>
+//         </div>
+//     </div>`;
+//     elementFilm.insertAdjacentHTML("beforeend", html);
+// });
