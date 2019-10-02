@@ -6,7 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .nav {
     display: flex;
     width: 100%;
@@ -25,66 +24,48 @@ a {
     text-decoration: none;
 }
 
-#head {
+header {
     background: url("haiphuong.jpg") 0 0 no-repeat;
     width: 100%;
     min-height: 700px;
     background-size: cover;
     padding-top: 70px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    -webkit-transition-duration: 1s;
-    transition-duration: 1s;
-    transition-timing-function: linear 1s;
+    
+    
 }
-
-#head .titl {
+ header .titl {
      font-size: 1.2em;
      float:left;
      font-weight: bold;
     font-family: 'Raleway', sans-serif;
     
 }
-#head .titl .webname a span {
+header .titl .webname a span {
     font-weight: 100;
     color: #3A94D0;
     text-decoration: none;
 }
-#head .titl small {
+header .titl small {
     font-weight: 100;
     opacity: 0.4;
     margin-top: -10px;
     display:block;
 }
-#head nav {
+header nav {
     float: left;
     margin-top: 10px;
     margin-left: 60px;
     
     
 }
-#head nav li {
+header nav li {
     display: inline-block;
     margin-left: 30px;
     text-decoration: none;
     font-size: 16.5px;
 }
-
-#head nav li a:hover{
-    text-decoration: none;
-    color:inherit;
-}
-.webname a {
-    text-decoration: none;
-    
-}
-.webname a:hover {
-    color: inherit;
-    
-}
-
-#head nav li input {
+header nav li input {
     width: 100%;
     height: 30px;
     border-radius: 200px;
@@ -95,7 +76,7 @@ a {
     margin-right: 50px;
     color: #FFF;
 }
-#head ul li button {
+header ul li button {
     width: 100px;
     height: 30px;
     background-color: #EC407A;
@@ -104,58 +85,57 @@ a {
     border:none;
     margin-left: -30px;
 }
-#head ul li button:hover {
+header ul li button:hover {
     opacity: 0.5;
     cursor: pointer;
 }
-#head #slider {
+header #slider {
     overflow: hidden;
 }
 
-#head .poster {
+header .poster {
     float: left;
     
 }
-#head div .poster h1 {
+header div .poster h1 {
     font-size: 4em;
     font-weight: 100;
     margin-top: 300px;
     margin-left: -140px;
     
 }
-#head .poster h3 {
+header .poster h3 {
     margin-left: -140px;
-    font-family: 'Raleway', sans-serif;
 }
 
-#head .indicate{
-    width: 100%;
-    height: 25px;
-    align-self: flex-end;
-    transform: translateY(75px);
-    text-align: center;
+
+header ul .indicate {
+    width: 30%;
+    margin: 0 0 10px 0;
+    
 }
-#head .indicate span{
+
+header .indicate li {
+    content: '';
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: #FFF;
     border-radius: 100%;
+    margin-top: 500px;
     cursor: pointer;
-    margin-left: 6px;
+    
 }
-#head .indicate span:hover {
-    border: 2px solid dodgerblue;
-    width: 20px;
-    height: 20px;
-    transition: 0.2s;
+
+header .indicate li:first-child {
+    margin-left: 100px;
 }
-.intro {
-    text-align: center;
-    margin-top:50px;
-    font-size:25px;
-    font-family: inherit;
+header .indicate li:hover {
+    border: 4px solid dodgerblue;
+    width: 35px;
+    height: 35px;
 }
+
 
 .filmintro {
     padding-top: 70px;
@@ -187,8 +167,10 @@ a {
     width: 20%;
     margin-left: 0.6%;
     margin-left: 49px;
-}
+    
 
+    
+}
 
 .filmintro li:first-child {
     margin-left: -20px;
@@ -207,20 +189,21 @@ padding: 0;
     width: 100%;
     height: 350px;
     margin-top: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 2%;
 } 
 .filmintro .movie img:hover {
     border: 2px solid dodgerblue;
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .filmintro .movie ul li h3 {
     font-size: 20px;
-    
 }
-
-.footer1 {
-    
+footer{
+    color: rgb(248, 248, 248);
+    background-color:rgb(114, 114, 114);
+    text-align:center;
+    padding:25px;
+    font-size:20px;
+    font-family: 'PT Serif', serif;
 }
