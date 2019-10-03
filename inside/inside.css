@@ -80,6 +80,7 @@ header nav li a:hover{
 }
 .webname a {
    text-decoration: none;
+   
 }
 .webname a:hover {
    color: inherit;
@@ -161,6 +162,7 @@ header #slider {
     font-weight: bold; */
     padding-top: 30px;
     text-align: justify;
+    text-transform: uppercase;
     
 }
 
@@ -249,4 +251,52 @@ header #slider {
 #red {
     color:initial;
     color: red;
+}
+
+.na{
+    text-align: center;
+    color: grey;
+    font-style: italic;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color:black;
+    color: #FFF;
+}
+
+.row {
+    border-top: 2px solid #FFE00A;
+}
+
+.row h1 {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.row p {
+    margin-left:70px;
+    font-size: 18px;
+    font-weight: initial;
+    font-style: italic;
+    font-family: initial;
+
+}
+
+.row li i:hover {
+    opacity: 0.8;
+    
+}
+.row ul {
+    padding-left: 100px;
+}
+footer{
+    font-size: 1.2em;
+    
+   font-family: 'Raleway', sans-serif;
+   
+}
+footer .webname a span {
+   font-weight: 100;
+   color: #3A94D0;
+   text-decoration: none;
 }

@@ -1,0 +1,29 @@
+footer {
+    box-sizing: border-box;
+    background-color:black;
+    color: #FFF;
+}
+
+footer .row {
+    border-top: 2px solid #FFE00A;
+}
+
+.row h1 {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.row p {
+    margin-left:70px;
+    font-size: 18px;
+    font-weight: initial;
+    font-style: italic;
+
+}
+
+.row li i:hover {
+    opacity: 0.8;
+    
+}
+.row ul {
+    padding-left: 100px;
+}
